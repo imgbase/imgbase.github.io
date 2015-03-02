@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIF Viewer 도움말</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <style type="text/css">
+	    
+	    #navbar {
+			padding-left:15px;
+	    }
+	    
+	    #accordion {
+		    margin-top:20px;
+			border-bottom:1px solid #ddd;
+	    }
+	    
+	    #accordion .panel {
+		    border-radius: 0px;
+		    border:0px solid transparent;
+		    border-top:1px solid #ddd;
+			-webkit-box-shadow: 0 0 0 rgba(0,0,0,.05);
+			box-shadow: 0 0 0 rgba(0,0,0,.05);
+			margin-top: 0;
+	    }
+	    
+	    #accordion .panel-heading {
+		    padding: 15px 15px;
+	    }
+	    
+	</style>
+    
+    
+  </head>
+  <body>
+	<div id="navbar">
+		<h3>GIF Viewer 도움말</h2>
+	</div>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingOne">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	          GIF가 움직이지 않아요!
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	      <div class="panel-body">
+	        <div class="body-text">
+                                                
+<p><strong>Case 1.</strong> 웹에 있는 GIF를 저장할 때 몇몇 웹 브라우저는 GIF가 아닌 정지 이미지를 저장 합니다. 웹에 있는 GIF를 저장 할때는 Safari 를 사용하는 것을 추천 합니다.</p>
+<p><strong>Case 2.&nbsp;</strong>현재 iOS8.1 이상에서 iCloud 사진 보관함(베타)를 사용할때 제대로 동작하지 않는 버그가 있습니다. 처음에는 제대로 GIF가 재생 되다가 일정 시간이 지나면 GIF가 아니라고 나오는 문제가 있는데요. 아직 해결 되지 않았습니다. 임시 해결책으로 아래와 같은 방법이 있으니 참고 하세요.</p>
+<p><strong>iCloud 사진 보관함 설정 해제</strong></p>
+<p>설정앱 - 사진 및 카메라 - iCloud 사진 보관함 활성화를 해제 하시면 정상적으로 동작 합니다.</p>
+<p><strong>iCloud 사진 보관함 설정에서 “다운로드 및 원본 유지”</strong></p>
+<p><span>설정앱 - 사진 및 카메라 - iCloud 사진 보관함에서 다운로드 및 원본 유지를 선택하세요. iCloud 사진 보관함은 일정 기간이 지나면 기기에 저장된 사진을 삭제 하고 클라우드에 저장 합니다. 그로 인해 GIF가 움직이지 않는거니 위의 설정 대로 하면 정상적으로 동작 합니다.</span></p>
+<p>빠른 시일 안에 해결된 버전을 업데이트 하겠습니다.</p>
+            </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingTwo">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          카카오톡으로 GIF를 보내면 정지화면으로 전송되요!
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	      <div class="panel-body">
+	        <p>카카오톡으로 GIF를 보내면 보낸 사람에게는 정지 이미지로 보이지만 이미지를 받은 사람에게는 움직이는 GIF로 보여 집니다.&nbsp;</p>
+	      </div>
+	    </div>
+	  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
