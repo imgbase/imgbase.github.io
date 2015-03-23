@@ -12,7 +12,7 @@ body {
 }
 body {
   font-family: 'Open Sans', arial, sans-serif;
-  color: #666666;
+  color: #FFFFFF;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -284,7 +284,7 @@ select {
   margin: 0 auto;
 }
 .device-holder.iphone-holder.iphone-gold-holder {
-  background: url('../images/devices/iphone6-gold.png') no-repeat center top;
+  background: url('../images/devices/iphone6-flat.png') no-repeat center top;
   background-size: contain;
 }
 .device-holder.iphone-holder.iphone-grey-holder {
@@ -726,6 +726,11 @@ select {
     top: -10px;
   }
 }
+
+.promo {
+  background:#2f9ecd;
+}
+
 .promo .arrow-holder {
   position: relative;
   z-index: 10;
@@ -860,13 +865,13 @@ select {
   margin-right: 5px;
 }
 .promo .download-area .summary a {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.5);
 }
 .promo .download-area .summary a:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 .promo .iphone-holder .owl-theme .owl-controls {
-  margin-top: 80px;
+  margin-top: 95px;
 }
 .promo .android-holder .owl-theme .owl-controls {
   margin-top: 120px;
@@ -930,7 +935,7 @@ select {
 .footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #364b59;
+  background: #1c5c77;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer a {
@@ -943,7 +948,7 @@ select {
   margin-left: 0;
   display: inline-block;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -2551,9 +2556,9 @@ select {
   }
   .device-holder.iphone-holder .device-holder-inner {
     position: absolute;
-    width: 261px;
-    top: 64px;
-    left: 41px;
+    width: 259px;
+    top: 75px;
+    left: 42px;
   }
   .device-holder.android-holder .device-holder-inner {
     position: absolute;
@@ -2582,9 +2587,9 @@ select {
   }
   .device-holder.iphone-holder .device-holder-inner {
     position: absolute;
-    width: 223px;
-    top: 54px;
-    left: 35px;
+    width: 219px;
+    top: 64px;
+    left: 36px;
   }
   .device-holder.android-holder .device-holder-inner {
     position: absolute;
@@ -2609,9 +2614,9 @@ select {
   }
   .device-holder.iphone-holder .device-holder-inner {
     position: absolute;
-    width: 274px;
-    top: 67px;
-    left: 42px;
+    width: 270px;
+    top: 78px;
+    left: 44px;
   }
   .device-holder.android-holder .device-holder-inner {
     position: absolute;
