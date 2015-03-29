@@ -40,6 +40,10 @@
 	    #accordion .panel-heading {
 		    padding: 15px 15px;
 	    }
+
+	    img {
+	    	width : 100%;
+	    }
 	    
 	</style>
     
@@ -47,24 +51,78 @@
   </head>
   <body>
 	<div id="navbar">
-		<h3>GIF Viewer ヘルプ</h2>
+		<h3>GIF Viewer</h2>
 	</div>
 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 	  <div class="panel panel-default">
 	    <div class="panel-heading" role="tab" id="headingOne">
 	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-	          GIF is not animating.
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+	          GIFが動かない。
 	        </a>
 	      </h4>
 	    </div>
-	    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 	      <div class="panel-body">
-	        <p>1. Must save gif image on Safari. In iOS mobile web browsers(Chrome, Google) &nbsp;are not save image to gif file. Using safari!</p>
-	        <p>2. GIFViewer is not support “iCloud Photo Library” yet. If you use “iCloud Photo Library”, Please set option “Download and Keep Originals”.</p>
+	        <b>状況1. GIFファイルの保存がうまくいかないとき</b><br>
+GIFを保存するときは、Safariアプリを利用することをお勧め致します。 Safariアプリではなく、他のアプリを利用して保存すると、GIFではなく、静止した写真画像を保存する場合があります。他のアプリがGIF形式のファイルをサポートしていなくて生じる問題で、最近のiOSでGIFをサポートしているアプリが増えてはいるが、まだサポートしていないところが多くあります。<br><br>
+
+<B>状況2. iCloudフォトライブラリを使用しているとき</b><br>
+現在iOS8.1以上でiCloudフォトライブラリを「最適化」で使用すると、自動的に機器に保存された写真を削除して、クラウドに保存します。そのため、クラウドに保存されたGIFを読み込むことができません。 GIF Viewerアプリは、機器に保存されているGIFのみを再生することができます。<br><br>
+
+<b>次の2つの方法のいずれかを使用してください。</b><br><br>
+
+<b>方法1. iCloudフォトライブラリの設定で「ダウンロード及び原本の維持」</b><br>
+設定アプリ>写真とカメラ> iCloudフォトライブラリから「原本維持」を選択してください。<br>
+*すでにクラウドに保存されたファイルは、再び機器に保存すると、正しく表示することができます。<br><br>
+
+<b>方法2. GIF Viewerアプリの中のアルバムにGIFをコピー</b><br>
+GIF Viewerアプリの中のアルバムにコピーしたGIFファイルは、クラウドの影響を受けません。 iCloudフォトライブラリを"最適化"として使用したい場合はGIFファイルがクラウドにアップロードされる前に、GIF Viewerアプリのアルバムにコピーしてください。
+
 	      </div>
 	    </div>
 	  </div>
+
+	   <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingThree">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          iTunesファイル共有の使い方
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	      <div class="panel-body">
+	        <p>1. iPhoneやiPadをPCに接続し、iTunesを実行してください。</p>
+	        <p><img src="http://media.tumblr.com/6cc4d1257600d14ca883b5f86f965218/tumblr_inline_ndn6pd66n11r9fs71.png"></p>
+	        <p>2. Appsメニューを選択して、スクロールを下に降りてiTunesファイル共有に移動してください。</p>
+	        <p><img src="http://media.tumblr.com/b5dbd50e42d35073121270537b0f1e84/tumblr_inline_ndn76rU6081r9fs71.png"></p>
+	        <p>3.iTunesファイル共有で「GIF Viewer」を選択してください。</p>
+	        <p><img src="http://media.tumblr.com/416d7f17922178ee20ad3631a4d7bde0/tumblr_inline_ndn6wcfHdf1r9fs71.png"></p>
+	        <p>4. GIFViewerアプリの中に移動したいGIFファイルをドラッグして、図のようにGIF Viewer Documentsに追加してください。
+					（フォルダを移動すると、アプリでGIFを認識することはできません。GIFファイルのみ入れてください。）</p>
+	        <p><img src="http://media.tumblr.com/56fd2ca17c6e428a5aab6a7cebead2d3/tumblr_inline_ndmts6Syg01r9fs71.png"></p>
+	        <p>iPhoneやiPadでGIF Viewerアプリを起動させた後、「iTunesファイル共有」メニューを選択すると、追加したGIFを見ることができます。</p>
+	      </div>
+	    </div>
+	  </div>  
+
+	   <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading4">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+	          いくつかの答えを見つけることができません!
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+	      <div class="panel-body">
+	        <p>cs@imgbase.me に連絡してください。 </p>
+	        <p><a href='mailto:cs@imgbase.me'> メールを送る</a></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
