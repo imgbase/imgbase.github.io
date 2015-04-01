@@ -3,7 +3,7 @@
 	"visibleOnlyFree" : false,
 	"notice_id" : "1",
 	"title" : {
-		"KO" : "공지", 
+		"KO" : "공지",
 		"EN" : "Notice"
 	},
 	"image" : "https://dl.dropbox.com/s/i24zbfmvwsrblmd/sample.png",
@@ -13,10 +13,10 @@
 	},
 	"action" : {
 		"text" : {
-			"KO" : "자세히보기.",
+			"KO" : "자세히 보기",
 			"EN" : "More Detail"
 		},
-		"type" : "weburl",
-		"query" : "https://itunes.apple.com/kr/app/id895830403"
+		"type" : "appinstall",
+		"query" : "895830403"
 	}
 }
