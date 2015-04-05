@@ -3,8 +3,8 @@
 	"visibleOnlyFree" : false,
 	"targetVersion" : { 
 		"versioncode" : 14,
-		"above" : true,
-		"under" : false
+		"above" : false,
+		"under" : true
 	},
 	"notice_id" : "1",
 	"title" : {
