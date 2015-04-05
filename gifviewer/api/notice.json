@@ -1,7 +1,11 @@
 {
 	"visible" : true,
 	"visibleOnlyFree" : false,
-	"targetVersion" : "14+",
+	"targetVersion" : { 
+		"versioncode" : 14,
+		"above" : true,
+		"under" : false
+	},
 	"notice_id" : "1",
 	"title" : {
 		"EN" : "GIFファイルの保存がうまくいかないとき"
