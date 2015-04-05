@@ -1,24 +1,20 @@
 {
 	"visible" : true,
 	"visibleOnlyFree" : false,
-	"targetVersion" : { 
-		"versioncode" : 13,
-		"above" : false,
-		"under" : false
-	},
+	"targetVersion" : null,
 	"notice_id" : "1",
 	"title" : {
-		"EN" : "GIFファイルの保存がうまくいかないとき"
+		"EN" : "Notice"
 	},
-	"image" : "https://dl.dropbox.com/s/i24zbfmvwsrblmd/sample.png",
+	"image" : null,
 	"message" : {
-		"EN" : "メニューを選択して、スクロールを下に降りてiTunesファイル共有に移動してください。"
+		"EN" : "GIF Viewer Updated v1.2.1!"
 	},
 	"action" : {
 		"text" : {
-			"EN" : "を選択してください。"
+			"EN" : "More Detail"
 		},
-		"type" : "appinstall",
-		"query" : "895830403"
+		"type" : "weburl",
+		"query" : "https://itunes.apple.com/kr/app/id895830403"
 	}
 }
