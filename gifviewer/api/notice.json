@@ -3,17 +3,17 @@
 	"visibleOnlyFree" : false,
 	"notice_id" : "1",
 	"title" : {
-		"KO" : "공지",
+		"KO" : "GIFファイルの保存がうまくいかないとき",
 		"EN" : "Notice"
 	},
 	"image" : "https://dl.dropbox.com/s/i24zbfmvwsrblmd/sample.png",
 	"message" : {
-		"KO" : "테스트 입니다.",
+		"KO" : "メニューを選択して、スクロールを下に降りてiTunesファイル共有に移動してください。",
 		"EN" : "This is a test."
 	},
 	"action" : {
 		"text" : {
-			"KO" : "자세히 보기",
+			"KO" : "iTunesファイル共有で「GIF Viewer」を選択してください。",
 			"EN" : "More Detail"
 		},
 		"type" : "appinstall",
