@@ -2,9 +2,9 @@
 	"visible" : true,
 	"visibleOnlyFree" : false,
 	"targetVersion" : { 
-		"versioncode" : 14,
+		"versioncode" : 13,
 		"above" : false,
-		"under" : true
+		"under" : false
 	},
 	"notice_id" : "1",
 	"title" : {
