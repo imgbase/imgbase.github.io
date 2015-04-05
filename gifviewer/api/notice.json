@@ -6,7 +6,7 @@
 		"KO" : "공지",
 		"EN" : "Notice"
 	},
-	"image" : "https://dl.dropbox.com/s/i24zbfmvwsrblmd/sample.png",
+	"image" : "https://dl.dropbox.com/s/i24zbfmvwsrblmd/sample.png?dummy=asdasd",
 	"message" : {
 		"KO" : "테스트 입니다.",
 		"EN" : "This is a test."
