@@ -15,6 +15,8 @@
 			"EN" : "More Detail"
 		},
 		"type" : "weburl",
-		"query" : "https://itunes.apple.com/kr/app/id895830403"
+		"query" : {
+			"EN" : "http://imgbase.me"
+		}
 	}
 }
