@@ -4,19 +4,12 @@
 	"targetVersion" : null,
 	"notice_id" : "1",
 	"title" : {
-		"EN" : "Notice"
+		"EN" : "공지"
 	},
 	"image" : null,
 	"message" : {
-		"EN" : "GIF Viewer Updated v1.2.1!"
+		"EN" : "테스트"
 	},
 	"action" : {
-		"text" : {
-			"EN" : "More Detail"
-		},
-		"type" : "weburl",
-		"query" : {
-			"EN" : "http://imgbase.me"
-		}
 	}
 }
