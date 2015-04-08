@@ -1,15 +1,22 @@
 {
-	"visible" : true,
+	"visible" : false,
 	"visibleOnlyFree" : false,
 	"targetVersion" : null,
 	"notice_id" : "1",
 	"title" : {
-		"EN" : "공지"
+		"EN" : ""
 	},
 	"image" : null,
 	"message" : {
-		"EN" : "테스트"
+		"EN" : ""
 	},
 	"action" : {
+		"text" : {
+			"EN" : ""
+		},
+		"type" : "weburl",
+		"query" : {
+			"EN" : ""
+		}
 	}
 }
