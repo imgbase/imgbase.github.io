@@ -1,8 +1,8 @@
 {
 	"visible" : true,
-	"visibleOnlyFree" : true,
+	"visibleOnlyFree" : false,
 	"targetVersion" : null,
-	"notice_id" : "3",
+	"notice_id" : "4",
 	"title" : {
 		"EN" : "Test"
 	},
