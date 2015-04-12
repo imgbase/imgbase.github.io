@@ -1,22 +1,22 @@
 {
-	"visible" : false,
-	"visibleOnlyFree" : false,
+	"visible" : true,
+	"visibleOnlyFree" : true,
 	"targetVersion" : null,
-	"notice_id" : "1",
+	"notice_id" : "2",
 	"title" : {
-		"EN" : ""
+		"EN" : "Test"
 	},
 	"image" : null,
 	"message" : {
-		"EN" : ""
+		"EN" : "This is a test."
 	},
 	"action" : {
 		"text" : {
-			"EN" : ""
+			"EN" : "More Detail"
 		},
 		"type" : "weburl",
 		"query" : {
-			"EN" : ""
+			"EN" : "http://imgbase.me"
 		}
 	}
 }
