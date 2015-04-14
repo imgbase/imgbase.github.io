@@ -1,8 +1,12 @@
 {
 	"visible" : true,
 	"visibleOnlyFree" : false,
-	"targetVersion" : null,
-	"notice_id" : "9",
+	"targetVersion" : {
+		"versioncode" : 15,
+		"above" : false,
+		"under" : false
+	},
+	"notice_id" : "10",
 	"title" : {
 		"EN" : "앱 추천"
 	},
