@@ -4,7 +4,7 @@
 	"targetVersion" : {
 		"versioncode" : 15,
 		"above" : false,
-		"under" : false
+		"under" : true
 	},
 	"notice_id" : "10",
 	"title" : {
