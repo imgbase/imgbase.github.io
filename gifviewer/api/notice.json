@@ -2,21 +2,13 @@
 	"visible" : true,
 	"visibleOnlyFree" : false,
 	"targetVersion" : null,
-	"notice_id" : "12",
+	"notice_id" : "13",
 	"title" : {
 		"EN" : "공지"
 	},
 	"image" : null,
 	"message" : {
-		"EN" : "긴급 버그 수정 업데이트 하세욧!"
+		"EN" : "100만 다운로드 돌파 이벤트! 한시적으로 프로업그레이드를 무료로 전환 합니다!"
 	},
-	"action" : {
-		"text" : {
-			"EN" : "업데이트"
-		},
-		"type" : "weburl",
-		"query" : {
-			"EN" : "http://imgbase.me"
-		}
-	}
+	"action" : null
 }
