@@ -2,9 +2,9 @@
 	"visible" : true,
 	"visibleOnlyFree" : true,
 	"targetVersion" : null,
-	"notice_id" : "7",
+	"notice_id" : "8",
 	"title" : {
-		"EN" : "공지"
+		"EN" : "앱 추천"
 	},
 	"image" : "http://image.music.naver.net/album/170/000/511/511214.jpg",
 	"message" : {
