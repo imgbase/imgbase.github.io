@@ -1,22 +1,22 @@
 {
 	"visible" : true,
-	"visibleOnlyFree" : true,
+	"visibleOnlyFree" : false,
 	"targetVersion" : null,
-	"notice_id" : "4",
+	"notice_id" : "5",
 	"title" : {
-		"EN" : "Test"
+		"EN" : "공지"
 	},
 	"image" : null,
 	"message" : {
-		"EN" : "This is a test."
+		"EN" : "v1.2.1이 업데이트 되었습니다. 공유 기능이 강화 되었고 버그가 수정 되었습니다."
 	},
 	"action" : {
 		"text" : {
-			"EN" : "More Detail"
+			"EN" : "업데이트"
 		},
-		"type" : "weburl",
+		"type" : "appInstall",
 		"query" : {
-			"EN" : "http://imgbase.me"
+			"EN" : "895830403"
 		}
 	}
 }
