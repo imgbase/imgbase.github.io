@@ -1,14 +1,14 @@
 {
-	"visible" : true,
-	"visibleOnlyFree" : false,
+	"visible" : false,
+	"visibleOnlyFree" : true,
 	"targetVersion" : null,
-	"notice_id" : "13",
+	"notice_id" : "1",
 	"title" : {
-		"EN" : "공지"
+		"EN" : ""
 	},
 	"image" : null,
 	"message" : {
-		"EN" : "100만 다운로드 돌파 이벤트! 한시적으로 프로업그레이드를 무료로 전환 합니다!"
+		"EN" : ""
 	},
 	"action" : null
 }
