@@ -1,14 +1,15 @@
 {
 	"visible" : false,
-	"visibleOnlyFree" : true,
+	"visibleOnlyFree" : false,
 	"targetVersion" : null,
+	"targetLanguage" : "KO",
 	"notice_id" : "1",
 	"title" : {
-		"EN" : ""
+		"EN" : "Title"
 	},
 	"image" : null,
 	"message" : {
-		"EN" : ""
+		"EN" : "Test"
 	},
 	"action" : null
 }
