@@ -2,7 +2,7 @@
 	"visible" : false,
 	"visibleOnlyFree" : false,
 	"targetVersion" : null,
-	"targetLanguage" : "KO",
+	"targetLanguage" : null,
 	"notice_id" : "1",
 	"title" : {
 		"EN" : "Title"
