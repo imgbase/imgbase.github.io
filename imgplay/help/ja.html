@@ -49,23 +49,72 @@
   </head>
   <body>
 	<div id="navbar">
-		<h3>ImgPlay (ja)</h2>
+		<h3>ImgPlay</h2>
 	</div>
 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-	  <div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingOne">
-	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-	         테스트
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-	      <div class="panel-body">
-	        테스트 내용
-	      </div>
-	    </div>
-	  </div>
+		<div class="panel panel-default">
+		 	<div class="panel-heading" role="tab" id="headingOne">
+		      	<h4 class="panel-title">
+		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		        	 1. GIF動画で保存すると、写真ファイルが壊れて見えません。
+		        	</a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+		      	<div class="panel-body">
+			        ウェブやモバイルで主に使われる画像フォーマットはJPG、GIF、PNGです。 <br>
+
+			        その中、GIF動画はGIFファイル形式です。 <br>
+
+			        GIF動画は一つの画像に保存可能な色が256色に制限されているため、256種類以上の色を持つ画像をGIF形式で保存すると、どうしようもなく色の損失が発生します。 画質の良いアニメーションを保存したい場合は、ビデオとして保存することをお勧めします。 
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+
+		    <div class="panel-heading" role="tab" id="heading2">
+		     	<h4 class="panel-title">
+		       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+					2. 写真の読み込みに時間がかかりすぎです。
+		        	</a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+			        機器に保存された写真がiCloudにアップロードされている場合、ロード時間が長くなることがあります。 これは、ネットワークを介してダウンロードするため、ネットワークの速度の影響を受けるからです。 <br>
+
+			        WiFiネットワークでに再度お試しください。
+
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+
+		    <div class="panel-heading" role="tab" id="heading3">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+					3. GIF動画をフォトギャラリーに保存したけど動きません。
+			        </a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+		      	<div class="panel-body">
+			        iPhoneの基本フォトギャラリーはGIF形式をサポートしていないため、停止した写真画像として表示されます。iPhoneでGIF動画を表示するためには、GIF動画アルバムアプリを別途インストールする必要があります。<br><br>
+
+
+					私たちが作ったこのアプリ、GIFViewerをお勧めします。無料です。 <br>
+
+					<a href="">アプリストアリンクショートカット</a>
+			    </div>
+		    </div>
+		</div>
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

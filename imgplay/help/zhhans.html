@@ -41,23 +41,65 @@
   </head>
   <body>
 	<div id="navbar">
-		<h3>ImgPlay (zhhans)</h2>
+		<h3>ImgPlay</h2>
 	</div>
 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-	  <div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingOne">
-	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-	         테스트
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-	      <div class="panel-body">
-	        테스트 내용
-	      </div>
-	    </div>
-	  </div>
+		<div class="panel panel-default">
+		 	<div class="panel-heading" role="tab" id="headingOne">
+		      	<h4 class="panel-title">
+		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		        	 1. 闪图保存的图片出现失真现象
+		        	</a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+		      	<div class="panel-body">
+			        因特网和手机网络支持的图片格式主要有JPG, GIF, PNG。<br>
+					其中闪图为GIF文件格式。<br>
+					GIF图像只能显示256色，当大于256色的图像保存为GIF格式时，无可避免的发生图像失真现象。如果要保存高画质动态图，建议利用视频格式保存。
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading2">
+		     	<h4 class="panel-title">
+		       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+					2. 图片加载时间过长
+		        	</a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+			        如果存在设备上的图像被上传到iCloud时，图片加载时间可能会长一些。这是因为下载速度受到网速限制。<br>
+					请连接到Wi Fi网络后重新尝试。
+		      	</div>
+		    </div>
+		</div>
+		
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading3">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+					3. 闪图保存到相册之后变成静态图.
+			        </a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+		      	<div class="panel-body">
+			        这是由于iphone系统是没有保存GIF图片功能，所以看起来像静态图。想要在iphone浏览闪图，需要下载安装闪图浏览器。.<br><br>
+
+
+					推荐由我们制作的免费GIF动态图片浏览器（GIFViewer） 。这样进相册就可以看闪图了。<br>
+					<a href="">直接跳转到应用商店链接</a>
+			    </div>
+		    </div>
+		</div>
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

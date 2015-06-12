@@ -49,23 +49,70 @@
   </head>
   <body>
 	<div id="navbar">
-		<h3>ImgPlay (ko)</h2>
+		<h3>ImgPlay</h2>
 	</div>
 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-	  <div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingOne">
-	      <h4 class="panel-title">
-	        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-	         테스트
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-	      <div class="panel-body">
-	        테스트 내용
-	      </div>
-	    </div>
-	  </div>
+		<div class="panel panel-default">
+		 	<div class="panel-heading" role="tab" id="headingOne">
+		      	<h4 class="panel-title">
+		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		        	 1. 움짤로 저장하면 사진화질이 깨져 보여요.
+		        	</a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+		      	<div class="panel-body">
+			        웹이나 모바일에서 주로 사용되는 이미지 포맷은 JPG, GIF, PNG가 있습니다.<br>
+
+					그중 움짤은 GIF 파일 포맷입니다. <br>
+
+					GIF는 하나의 이미지에 저장 가능한 색상이 256 색으로 제한되기 때문에 256가지 이상의 색을 가진 이미지를 GIF 포맷으로 저장하게 되면 어쩔 수 없이 손실이 발생하게 됩니다. 화질이 좋은 애니메이션을 저장하고 싶다면 비디오로 저장하는 것을 추천드립니다.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+
+		    <div class="panel-heading" role="tab" id="heading2">
+		     	<h4 class="panel-title">
+		       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+					2. 사진 로딩이 너무 오래 걸려요.
+		        	</a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+			        기기에 저장된 사진이 iCloud에 업로드가 되어 있는 경우에 로딩 시간이 길어질 수 있습니다.
+					iCloud에 업로드된 사진 네크워크를 통해서 다운로드를 하기 때문에 네트워크 속도의 영향을 받습니다. <br>
+
+					Wi Fi 네트워크에서 다시 시도해보세요.
+		      	</div>
+		    </div>
+
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading3">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+					3. 움짤을 사진앨범에 저장했는데 움직이지 않아요.
+			        </a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+		      	<div class="panel-body">
+			        아이폰 기본 사진앨범은 움짤(GIF)을 지원하지 않기 때문에 정지된 사진 이미지로 보입니다. 아이폰에서 움짤을 보기 위해서는 움짤 앨범 앱을 따로 설치해야 합니다. <br><br>
+
+					저희가 만든 앱인 GIFViewer 를 추천드립니다. 무료입니다.<br>
+					<a href="">앱스토어 링크 바로 가기</a>
+			    </div>
+		    </div>
+		</div>
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
