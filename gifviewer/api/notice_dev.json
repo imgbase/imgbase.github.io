@@ -6,14 +6,14 @@
 	"notice_id" : "3",
 	"title" : {
 		"EN" : "움짤 만들기 앱 출시!",
-		"JA" : "GIF画像が作れるアプリが登場！",
+		"JA" : "GIFが作れるアプリが登場！",
 		"ZH-HANT" : "",
 		"ZH-HANS" : ""
 	},
 	"image" : "http://imgbase.github.io/images/imgplay_madebyus.png",
 	"message" : {
 		"EN" : "움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!",
-		"JA" : "これからは自分が直接GIF画像を作って共有できます。\n今すぐ無料でインストールしてください！",
+		"JA" : "これからは自分が直接GIF画像を作って共有できます。今すぐ無料でインストールしてください！",
 		"ZH-HANT" : "",
 		"ZH-HANS" : ""
 	},
