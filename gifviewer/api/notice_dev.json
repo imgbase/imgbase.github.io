@@ -5,23 +5,26 @@
 	"targetLanguage" : null,
 	"notice_id" : "3",
 	"title" : {
-		"EN" : "움짤 만들기 앱 출시!",
+		"EN" : "Release GIF making App!",
 		"JA" : "GIFが作れるアプリが登場！",
+		"KO" : "움짤 만들기 앱 출시!",
 		"ZH-HANT" : "",
 		"ZH-HANS" : ""
 	},
 	"image" : "http://imgbase.github.io/images/imgplay_madebyus.png",
 	"message" : {
-		"EN" : "움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!",
+		"EN" : "Produce and share your own GIF!\nGet it now free!",
 		"JA" : "これからは自分が直接GIF画像を作って共有できます。今すぐ無料でインストールしてください！",
+		"KO" : "움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!",
 		"ZH-HANT" : "",
 		"ZH-HANS" : ""
 	},
 	"action" : {
 		"type" : "appinstall",
 		"text" : {
-			"EN" : "설치 하기",
+			"EN" : "Install Now",
 			"JA" : "インストールする",
+			"KO" : "지금 설치 하기",
 			"ZH-HANT" : "",
 			"ZH-HANS" : ""
 		},
