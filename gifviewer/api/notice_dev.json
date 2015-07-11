@@ -5,28 +5,16 @@
 	"targetLanguage" : null,
 	"notice_id" : "3",
 	"title" : {
-		"EN" : "움짤 만들기 앱 출시!",
-		"KO" : "",
-		"JA" : "",
-		"ZH-HANT" : "",
-		"ZH-HANS" : ""
+		"EN" : "움짤 만들기 앱 출시!"
 	},
 	"image" : "http://imgbase.github.io/images/imgplay_madebyus.png",
 	"message" : {
-		"EN" : "이제 움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!",
-		"KO" : "",
-		"JA" : "",
-		"ZH-HANT" : "",
-		"ZH-HANS" : ""
+		"EN" : "이제 움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!"
 	},
 	"action" : {
 		"type" : "appinstall",
 		"text" : {
-			"EN" : "설치 하기",
-			"KO" : "",
-			"JA" : "",
-			"ZH-HANT" : "",
-			"ZH-HANS" : ""
+			"EN" : "설치 하기"
 		},
 		"query" : {
 			"EN" : "itms://itunes.apple.com/app/id989843523"
