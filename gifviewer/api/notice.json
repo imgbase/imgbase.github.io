@@ -1,6 +1,6 @@
 {
-	"visible" : false,
-	"visibleOnlyFree" : false,
+	"visible" : true,
+	"visibleOnlyFree" : true,
 	"targetVersion" : null,
 	"targetLanguage" : null,
 	"notice_id" : "5",
