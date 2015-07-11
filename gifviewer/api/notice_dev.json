@@ -8,7 +8,7 @@
 		"EN" : "Release of a GIF making App!",
 		"JA" : "GIFが作れるアプリが登場！",
 		"KO" : "움짤 만들기 앱 출시!",
-		"ZH-HANT" : "",
+		"ZH-HANT" : "新推出GIF制作軟件!",
 		"ZH-HANS" : "新推出GIF制作软件!"
 	},
 	"image" : "http://imgbase.github.io/images/imgplay_madebyus.png",
@@ -16,7 +16,7 @@
 		"EN" : "Produce and share your own GIF!\nGet it now free!",
 		"JA" : "これからは自分が直接GIF画像を作って共有できます。今すぐ無料でインストールしてください！",
 		"KO" : "움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!",
-		"ZH-HANT" : "",
+		"ZH-HANT" : "可以自己動手制作個性GIF動態圖片與大家分享，快來免費下載安裝吧。",
 		"ZH-HANS" : "可以自己动手制作个性GIF动态图片与大家分享，快来免费下载安装吧。"
 	},
 	"action" : {
@@ -25,7 +25,7 @@
 			"EN" : "Install Now",
 			"JA" : "インストールする",
 			"KO" : "지금 설치 하기",
-			"ZH-HANT" : "",
+			"ZH-HANT" : "立刻安裝",
 			"ZH-HANS" : "立即安装"
 		},
 		"query" : {
