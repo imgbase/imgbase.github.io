@@ -1,9 +1,9 @@
 {
-	"visible" : false,
+	"visible" : true,
 	"visibleOnlyFree" : false,
 	"targetVersion" : null,
 	"targetLanguage" : null,
-	"notice_id" : "3",
+	"notice_id" : "5",
 	"title" : {
 		"EN" : "Release of a GIF making App!",
 		"JA" : "GIFが作れるアプリが登場！",
