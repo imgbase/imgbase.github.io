@@ -9,7 +9,7 @@
 	},
 	"image" : "http://imgbase.github.io/images/imgplay_madebyus.png",
 	"message" : {
-		"EN" : "이제 움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!"
+		"EN" : "움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!"
 	},
 	"action" : {
 		"type" : "appinstall",
