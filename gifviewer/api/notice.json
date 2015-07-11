@@ -3,13 +3,25 @@
 	"visibleOnlyFree" : false,
 	"targetVersion" : null,
 	"targetLanguage" : null,
-	"notice_id" : "2",
+	"notice_id" : "3",
 	"title" : {
-		"EN" : "Title"
+		"EN" : "움짤 만들기 앱 출시!",
+		"KO" : "",
+		"JA" : "",
+		"ZH-HANT" : "",
+		"ZH-HANS" : ""
 	},
-	"image" : null,
+	"image" : "http://imgbase.github.io/images/imgplay_madebyus.png",
 	"message" : {
-		"EN" : "Test"
+		"EN" : "이제 움짤을 내가 직접 만들어서 공유하세요.\n지금 바로 무료로 설치하세요!",
+		"KO" : "",
+		"JA" : "",
+		"ZH-HANT" : "",
+		"ZH-HANS" : ""
 	},
-	"action" : null
+	"action" : {
+		"type" : "appinstall",
+		"text" : "설치 하기",
+		"query" : "itms://itunes.apple.com/app/id989843523"
+	}
 }
