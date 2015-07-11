@@ -20,7 +20,7 @@
 		"ZH-HANS" : ""
 	},
 	"action" : {
-		"type" : "weburl",
+		"type" : "appinstall",
 		"text" : {
 			"EN" : "Install Now",
 			"JA" : "インストールする",
@@ -29,7 +29,7 @@
 			"ZH-HANS" : ""
 		},
 		"query" : {
-			"EN" : "https://itunes.apple.com/app/id989843523"
+			"EN" : "989843523"
 		}
 	}
 }
