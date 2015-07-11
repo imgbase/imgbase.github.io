@@ -5,7 +5,7 @@
 	"targetLanguage" : null,
 	"notice_id" : "3",
 	"title" : {
-		"EN" : "Release GIF making App!",
+		"EN" : "Release of a GIF making App!",
 		"JA" : "GIFが作れるアプリが登場！",
 		"KO" : "움짤 만들기 앱 출시!",
 		"ZH-HANT" : "",
@@ -20,7 +20,7 @@
 		"ZH-HANS" : ""
 	},
 	"action" : {
-		"type" : "appinstall",
+		"type" : "weburl",
 		"text" : {
 			"EN" : "Install Now",
 			"JA" : "インストールする",
@@ -29,7 +29,7 @@
 			"ZH-HANS" : ""
 		},
 		"query" : {
-			"EN" : "989843523"
+			"EN" : "itms://itunes.apple.com/app/id989843523?mt=8"
 		}
 	}
 }
