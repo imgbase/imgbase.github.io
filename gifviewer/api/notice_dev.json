@@ -28,6 +28,8 @@
 			"ZH-HANT" : "",
 			"ZH-HANS" : ""
 		},
-		"query" : "itms://itunes.apple.com/app/id989843523"
+		"query" : {
+			"EN" : "itms://itunes.apple.com/app/id989843523"
+		}
 	}
 }
