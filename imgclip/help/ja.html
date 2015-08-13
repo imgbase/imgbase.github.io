@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ImgClip ヘルプ</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <style type="text/css">
+	    
+	    #navbar {
+			padding-left:15px;
+	    }
+	    
+	    #accordion {
+		    margin-top:20px;
+			border-bottom:1px solid #ddd;
+	    }
+	    
+	    #accordion .panel {
+		    border-radius: 0px;
+		    border:0px solid transparent;
+		    border-top:1px solid #ddd;
+			-webkit-box-shadow: 0 0 0 rgba(0,0,0,.05);
+			box-shadow: 0 0 0 rgba(0,0,0,.05);
+			margin-top: 0;
+	    }
+	    
+	    #accordion .panel-heading {
+		    padding: 15px 15px;
+	    }
+	    
+	</style>
+    
+    
+  </head>
+  <body>
+	<div id="navbar">
+		<h3>ImgClip ヘルプ</h2>
+	</div>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading1">
+	      <h4 class="panel-title">
+	        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+	          1. 元の画像が保存されていないようです。
+
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+	      <div class="panel-body">
+	        ImgClipは現在見ているWebページの原本を保存できます。<br><br>
+
+			しかし、いくつかのWebページは、モバイルモードのウェブページとPCモードのWebページが別にあります。モバイルモードでサムネイルイメージを読み込むWebページがあるので、原本が保存されていないときは、必ずPCモードを選択してImgClipを実行してください。 PCモードボタンは、Webページの一番下にある場合が多いです。
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading2">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+	          2. 画面よりも小さいイメージが無理やり大きくなり、文字化けしてるように見えます。正常にして見ることができないのですか？
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+	      <div class="panel-body">
+	        アプリ内の設定 - >イメージ – ビューアモードメニューから、元のサイズで見れるよう設定できます。
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading3">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+	        3. アプリの容量が大きすぎるようです。減らすことができますか？
+
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+	      <div class="panel-body">
+	       アプリの反応速度を速くするためにキャッシュデータを保存しています。<br><br>
+			アプリ内の設定 - >キャッシュデータメニューからキャッシュデータを削除すると、その分の容量が減少します。
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading4">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+	         4. バックアップはどうすればよいですか？
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+	      <div class="panel-body">
+	        まだバックアップ機能を提供していません。今後、ドロップボックス連動によるバックアップ機能を開発する予定です。しばらくお待ちください。
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading5">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+	        5. たまにイメージ収集ができないWebページがあります。なぜでしょうか？
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+	      <div class="panel-body">
+	        ほとんどのWebページでの収集ができるようにアップデートするたびに最適化をしています。しかし、いくつかのWebページには、著作権保護のため、イメージ収集ができないように遮断しているところがあります。その場合には、収集できる方法はありません。<br><br>
+
+	        もし、通常の収集ができないWebページがある場合、cs@imgbase.meにメール送ってください。すれば、分析後、最適化することができるように検討します。
+	      </div>
+	    </div>
+	  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="heading6">
+	      <h4 class="panel-title">
+	        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+	        6. いくつかの答えを見つけることができません!
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+	      <div class="panel-body">
+	        お手数ですが, cs@imgbase.me に連絡してください。 <br><br>
+		        <a href='mailto:cs@imgbase.me'> メールを送る</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
