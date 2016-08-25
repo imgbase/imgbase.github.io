@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIF Viewer Help</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<style type="text/css">
+	    
+	    #navbar {
+			padding-left:15px;
+	    }
+	    
+	    #accordion {
+		    margin-top:20px;
+			border-bottom:1px solid #ddd;
+	    }
+	    
+	    #accordion .panel {
+		    border-radius: 0px;
+		    border:0px solid transparent;
+		    border-top:1px solid #ddd;
+			-webkit-box-shadow: 0 0 0 rgba(0,0,0,.05);
+			box-shadow: 0 0 0 rgba(0,0,0,.05);
+			margin-top: 0;
+	    }
+	    
+	    #accordion .panel-heading {
+		    padding: 15px 15px;
+	    }
+
+	    img {
+	    	
+	    }
+	    
+	</style>
+    
+    
+  </head>
+  <body>
+
+	<div id="navbar">
+		<h3>GIF Viewer</h2>
+	</div>
+
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingOne">
+	      		<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+	          			1. GIF is not animating.
+	        		</a>
+	      		</h4>
+	    	</div>
+
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+		      	<div class="panel-body">
+					<b>Case 1. When GIF file is not saved properly </b><br>
+					We recommend using Safari app when saving GIF files. Unless using other Apps than Safari app, not GIF but stopped (no video file) images get saved from time to time. It is a systematic problem that occurs because other apps do not support GIF file format. Even though apps supporting GIF under iOS are increasing, there are still many apps which do not support GIF program. 
+					<br><br>
+					<b>Case 2. When iCloud Photo Library is being used</b><br>
+					In current iOS8.1 or better, when using “Optimize iPhone Storage” iCloud Photo Library, it automatically deletes photos saved in the device and saves them into iCloud. Therefore GIF files cannot be retrieved from iCloud. GIF Viewer app helps you perform on the GIF files saved within the device only.  
+					<br><br>
+					<B><font color="red">Choose one of these two methods and practice it. </font></b>
+					<br><br>
+					<b>Method 1. “Download and Keep Originals” under the setting of iCloud Photo Library</b><br>
+					<img width="50" src="https://41.media.tumblr.com/0df875a8d700b894bbbbb5d71d59ff10/tumblr_o0ekqgjtzE1umvt7yo10_75sq.png">
+					Settings App > 
+
+					<img width="50" src="https://40.media.tumblr.com/8712b6a8253ef212f397444f4d50e614/tumblr_o0ekqgjtzE1umvt7yo7_100.png"> 
+					Photos & Camera > iCloud Photo Library, select “Download and Keep Originals”<br>
+					* Files already saved in iCloud can be retrieved again into your device later. 
+					<br><br>
+					<b>Method 2. Copy GIF into the album within GIF Viewer app </b><br>
+					GIF files copied into the album within GIF Viewer app do not get affected by iCloud. If you would like to use “Optimize iPhone Storage” iCloud Photo Library, copy the GIF files into the album of GIF Viewer App before uploading them into iCloud. 
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading2">
+	      		<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+	          			2. GIF is suddenly not showing.
+	        		</a>
+	      		</h4>
+	    	</div>
+
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+					
+				It is possible that GIF was automatically uploaded to iCloud photo library.<br>
+				GIF Viewer supports importing even GIFs uploaded to the iCloud photo library. (iOS 9 or better)<br><br>
+				Please activate "Support iCloud photo library" on app Settings.<br><br>
+				The default setting does not use iCloud photo library.
+				It's because it takes some time downloading GIF uploaded to iCloud.
+				This is affected by network environment. We suggest that you use iCloud photo library setting in Wi-Fi network.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+	    	<div class="panel-heading" role="tab" id="heading3">
+	    	  	<h4 class="panel-title">
+	        		<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+	        		  3. How to use itunes file sharing
+	        		</a>
+	      		</h4>
+	    	</div>	
+
+		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+		      	<div class="panel-body">
+			        <p>1. Connect your iOS device to your computer.</p>
+			        <p><img width="100%" src="https://41.media.tumblr.com/7f10373d5331f3316bd1ae09c8c60e00/tumblr_inline_o0ekpgOCtT1r9fs71_540.png"></p>
+			        <p>2. In iTunes, select your iOS device, and then select apps menu.
+			        	<br>3. Scroll down to bottom and Find file sharing.</p>
+			        <p><img width="100%" src="https://40.media.tumblr.com/a17c2b4fc7b9447336b6ee515d347a2f/tumblr_inline_o0ekptt8ZI1r9fs71_540.png"></p>
+			        <p>4. Below file sharing, select “GIF Viewer” from the list.
+			        	<br>5. Your gif files drag & drop to “GIFViewer Documents”</p>
+			        <p><img width="100%" src="https://41.media.tumblr.com/457add60da3172da25f816b978bba7de/tumblr_inline_o0ekpwRZQi1r9fs71_540.png"></p>
+			        <p>6. Launch GIFViewer and Select iTunes File Sharing menu.
+						<br>7. You can see yours gif files.</p>
+			        <p><img width="100%" src="https://40.media.tumblr.com/3a8b8899415b7d1f12650fdd5566c7c5/tumblr_inline_o0ekpgiXSu1r9fs71_540.png"></p>
+		      	</div>
+		    </div>
+		</div>  
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading4">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+		          4. How to sync your Twitter account
+		        </a>
+		      </h4>
+		    </div>
+
+		    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+			    <div class="panel-body">
+			        <p>Please You confirm Twitter account setting in iPhone general Settings app.</p>
+					<br>
+
+					1. In Settings app.<br><br>
+					<img width="100" src="https://41.media.tumblr.com/0df875a8d700b894bbbbb5d71d59ff10/tumblr_o0ekqgjtzE1umvt7yo10_75sq.png">
+					<br><br>
+
+					2. Find Twitter icon and Click that.<br><br>
+					<img width="100%" src="https://41.media.tumblr.com/5e155f28ff24540bbab3428f598d195e/tumblr_inline_o0ekpi30nX1r9fs71_540.png">
+					<br><br>
+
+					3. Do you have a valid account in here?<br>
+					&nbsp;&nbsp;If not, you should add the twitter account.<br><br>
+		   			&nbsp;&nbsp;And then please check allow to access the GIFViewer app.<br><br>
+
+		   			<img width="100%" src="https://41.media.tumblr.com/27c414ebc51d64dc2d904820d314d69d/tumblr_inline_o0ekpk9B051r9fs71_540.png">
+					<br><br>
+			    </div>
+	    	</div>
+		</div>
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading5">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+		          5. How to download the GIF on Twitter
+		        </a>
+		      </h4>
+		    </div>
+
+		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+			    <div class="panel-body">
+				1. Click the "..." from the GIF Tweets<br>
+				2. Select the "Share via..."<br>
+				3. Select "Copy link to Tweet."<br>
+				4. Open the GIF Viewer app, please click the "+" button.<br>
+				5. Select the "Twitter GIF". You can download a GIF on Twitter.<br>
+			    </div>
+	    	</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading6">
+	      		<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+	          			6. How to back up.
+	        		</a>
+	      		</h4>
+	    	</div>
+
+		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+		      	<div class="panel-body">
+					
+				Select GIF Viewer at the file share of iTunes.<br>
+				<p><img width="100%" src="https://41.media.tumblr.com/c3bbbd6d7fdf47bc29b6aa2633dd7d01/tumblr_o3uu87gIi31umvt7yo1_540.jpg"></p>
+
+				Drag your folder directly to the PC.<br>
+				<p><img width="100%" src="https://41.media.tumblr.com/2af7d8d91bab6f092cd4e3ab6b12e15f/tumblr_o3uu87gIi31umvt7yo2_540.jpg"></p>
+
+				When back up is completed, GIF and PNG are both saved in the folder in PC. You only have to delete the PNG files. 
+
+				GIF Viewer creates and keeps thumbnails(PNG) for a better speed of the app. The increased number of files from two to three times may come as an inconvenience, we ask for your consent. 
+				<br>
+				Different back up methods (Dropbox, Wi-Fi) are to be supported later on.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading7">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+					7. I cannot restore my payments. What can I do?
+			        </a>
+		      	</h4>
+		    </div>
+		    
+		    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+		      	<div class="panel-body">
+			        Payment processing is managed by Apple in its entirety.<br>
+			        First, you should log out from App Store. Then, restart your device. Try to re-try restore the purchase item list after logging in.  <br><br>
+			        If you cannot restore the list even after trying log out, please contact Apple.<br> 
+			      
+
+			    </div>
+		    </div>
+
+		</div>
+
+	    <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading8">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+		          8. Translation seems to have some errors.
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+		      <div class="panel-body">
+		        We are trying to provide best translation as possible.<br>
+				If you encounter any problem in understanding due to translation, please let us know.
+				It will be edited when updated. <br>
+				If possible, please send us an email regarding any problem regarding translation service to cs@imgbase.me. We highly appreciate your help and assistance.<br><br>
+		        <p><a href='mailto:cs@imgbase.me'> Send to mail</a></p>
+		      </div>
+		    </div>
+	  	</div>
+
+	    <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading9">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+		          9. Can't find any answer!
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+		      <div class="panel-body">
+		        <p>Please contact to cs@imgbase.me </p>
+		        <p><a href='mailto:cs@imgbase.me'> Send to mail</a></p>
+		      </div>
+		    </div>
+	  	</div>
+
+	  	
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
