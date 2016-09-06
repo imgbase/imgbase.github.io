@@ -53,24 +53,46 @@
 	<div id="navbar">
 		<h3>GIF Viewer</h2>
 	</div>
-	
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingOne">
-		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-		          1. GIFが動かない。
-		        </a>
-		      </h4>
-		    </div>
-		    
-		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-		      <div class="panel-body">
-		        <b>状況1. GIFファイルの保存がうまくいかないとき</b><br>
-				GIFを保存するときは、Safariアプリを利用することをお勧め致します。 Safariアプリではなく、他のアプリを利用して保存すると、GIFではなく、静止した写真画像を保存する場合があります。他のアプリがGIF形式のファイルをサポートしていなくて生じる問題で、最近のiOSでGIFをサポートしているアプリが増えてはいるが、まだサポートしていないところが多くあります。<br><br>
 
-				<B>状況2. iCloudフォトライブラリを使用しているとき</b><br>
-				現在iOS8.1以上でiCloudフォトライブラリを「最適化」で使用すると、自動的に機器に保存された写真を削除して、クラウドに保存します。そのため、クラウドに保存されたGIFを読み込むことができません。 GIF Viewerアプリは、機器に保存されているGIFのみを再生することができます。<br><br>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  	<div class="panel panel-default">
+	    	<div class="panel-heading" role="tab" id="headingOne">
+	     	 	<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+	        		  1. 動かない、あるいは、再生されないGIF
+	        		</a>
+	      		</h4>
+	    	</div>
+
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+			    <div class="panel-body">
+			        <div class="body-text">
+		                                                
+						<p>iPhone/iPadでGIFをダウンロードする際、GIFに似たアニメーションや、GIFではない静止画像を保存する場合があります。</p> 
+						<img width="50" src="https://67.media.tumblr.com/1ea42a3deb3c0d421f36dc94ae94457c/tumblr_o0ekqgjtzE1umvt7yo8_250.png">
+						<p>GIFを保存するときは、Safari Appを利用することをお勧め致します。 Safari Appではなく、他のAppを利用して保存すると、GIFではなく、静止した写真画像を保存する場合があります。他のAppがGIF形式のファイルをサポートしていなくて生じる問題で、最近のiOSでGIFをサポートしているAppが増えてはいるが、まだサポートしていないところが多くあります。</p>
+
+						
+		            </div>
+			    </div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading2">
+	      		<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+	          			2. GIFが突然見えない。（iOS8にだけ該当）
+	        		</a>
+	      		</h4>
+	    	</div>
+
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+						<p>GIFがiCloudフォトライブラリに自動的にアップロードされた可能性が大きい。
+						iCloudフォトライブラリを「最適化」で使用すると、自動的に機器に保存された写真を削除して、クラウドに保存します。そのため、クラウドに保存されたGIFを読み込むことができません。 GIF Viewer Appは、機器に保存されているGIFのみを再生することができます。
+
+						<p></p>
 
 				<b><font color="red">次の2つの方法のいずれかを使用してください。</font></b><br><br>
 
@@ -85,31 +107,7 @@
 				<b>方法2. GIF Viewerアプリの中のアルバムにGIFをコピー</b><br>
 				GIF Viewerアプリの中のアルバムにコピーしたGIFファイルは、クラウドの影響を受けません。 iCloudフォトライブラリを"最適化"として使用したい場合はGIFファイルがクラウドにアップロードされる前に、GIF Viewerアプリのアルバムにコピーしてください。
 
-		      </div>
-		    </div>
-		</div>
-
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading2">
-		      <h4 class="panel-title">
-		        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-		          2. GIFが突然見えない。
-
-		        </a>
-		      </h4>
-		    </div>
-		    
-		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-		      <div class="panel-body">
-				GIFがiCloudフォトライブラリに自動的にアップロードされた可能性が大きい。
-				GIF Viewerのアプリでは、iCloudフォトライブラリにアップロードされたGIFも呼び出すことができるようにサポートしています。<br><br>
-				アプリ内の設定>「iCloudフォトライブラリサポート」を有効にしてください。<br><br>
-
-				デフォルトの設定は、iCloudのフォトライブラリを使用していません。
-				iCloudにアップロードされたGIFアニメを呼び出す際に、ダウンロードに時間が少しかかるからです。 
-				これは、使用するネットワーク環境の影響を受けます。 iCloudのフォトライブラリの設定は、Wi-Fiネットワーク上で使用することをお勧めします。
-
-		      </div>
+		      	</div>
 		    </div>
 		</div>
 
@@ -121,10 +119,9 @@
 		        </a>
 		      </h4>
 		    </div>
-
 		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
 		      <div class="panel-body">
-		        <p>1. iPhoneやiPadをPCに接続し、iTunesを実行してください。</p>
+		       <p>1. iPhoneやiPadをPCに接続し、iTunesを実行してください。</p>
 		        <p><img width="100%" src="https://41.media.tumblr.com/7f10373d5331f3316bd1ae09c8c60e00/tumblr_inline_o0ekpgOCtT1r9fs71_540.png"></p>
 		        <p>2. Appsメニューを選択して、スクロールを下に降りてiTunesファイル共有に移動してください。</p>
 		        <p><img width="100%" src="https://40.media.tumblr.com/a17c2b4fc7b9447336b6ee515d347a2f/tumblr_inline_o0ekptt8ZI1r9fs71_540.png"></p>
@@ -134,38 +131,37 @@
 						（フォルダを移動すると、アプリでGIFを認識することはできません。GIFファイルのみ入れてください。）</p>
 		        <p><img width="100%" src="https://40.media.tumblr.com/3a8b8899415b7d1f12650fdd5566c7c5/tumblr_inline_o0ekpgiXSu1r9fs71_540.png"></p>
 		        <p>iPhoneやiPadでGIF Viewerアプリを起動させた後、「iTunesファイル共有」メニューを選択すると、追加したGIFを見ることができます。</p>
+
 		      </div>
 		    </div>
-		</div>  
+		</div>
 
 		<div class="panel panel-default">
 		    <div class="panel-heading" role="tab" id="heading4">
 		      <h4 class="panel-title">
 		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-		          4. Twitterに共有するときのTwitterのアカウントを関連付けることができません。
+		          4. Twitterで共有する時やダウンロードする時にエラーが発生します。
 		        </a>
 		      </h4>
 		    </div>
-
 		    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
 		      <div class="panel-body">
-		        <p>iPhoneの設定でTwitterのアカウントが追加されていることを確認してください。</p>
-				<br>
+		        	 iPhoneの設定でTwitterのアカウントが追加されていることを確認してください。</p>
+                             <br>
 
-				1. 設定アプリを起動してください。<br><br>
-				<img width="100" src="https://41.media.tumblr.com/0df875a8d700b894bbbbb5d71d59ff10/tumblr_o0ekqgjtzE1umvt7yo10_75sq.png">
-				<br><br>
+                     1. 設定アプリを起動してください。<br><br>
+                     <img width="100" src="https://41.media.tumblr.com/0df875a8d700b894bbbbb5d71d59ff10/tumblr_o0ekqgjtzE1umvt7yo10_75sq.png">
+                                <br><br>
 
-				2. Twitterを見つけてクリックして詳細表示に入ってください。<br><br>
-				<img width="100%" src="https://41.media.tumblr.com/5e155f28ff24540bbab3428f598d195e/tumblr_inline_o0ekpi30nX1r9fs71_540.png">
-				<br><br>
+                     2. Twitterを見つけてクリックして詳細表示に入ってください。<br><br>
+                     <img width="100%" src="https://41.media.tumblr.com/5e155f28ff24540bbab3428f598d195e/tumblr_inline_o0ekpi30nX1r9fs71_540.png">
+                                <br><br>
 
-				3. このところTwitterのアカウント設定がうまくされていることを確認して、アカウントがない場合は、アカウントを追加してください。<br>
-				&nbsp;&nbsp;下部にはGIF Viewerアプリのアクセスが承認されていることを確認してください<br><br>
+                     3. このところTwitterのアカウント設定がうまくされていることを確認して、アカウントがない場合は、アカウントを追加してください。<br> 継続的に問題が発生するようであればアカウントにてすべてのアカウントを削除し、再登録をお試しください。<br>
+                      下部にはGIF Viewerアプリのアクセスが承認されていることを確認してください<br><br>
 
-	   			<img width="100%" src="https://41.media.tumblr.com/27c414ebc51d64dc2d904820d314d69d/tumblr_inline_o0ekpk9B051r9fs71_540.png">
-				<br><br>
-
+                    <img width="100%" src="https://41.media.tumblr.com/27c414ebc51d64dc2d904820d314d69d/tumblr_inline_o0ekpk9B051r9fs71_540.png">
+                     <br><br>
 		      </div>
 		    </div>
 		</div>
@@ -181,74 +177,133 @@
 
 		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
 		      <div class="panel-body">
-		      	1. ツイッターでGIF動画が存在するツイートで &nbsp;<b><font color="#0e5fe5">「...」</font></b> &nbsp;をクリックしてください。<br>
-				2. &nbsp;<b><font color="#0e5fe5">「共有する」</font></b> &nbsp; を選択してください。<br>
-				3. &nbsp;<b><font color="#0e5fe5">「ツイートへのリンクをコピー」 </font></b> &nbsp;を選択してください。<br>
-				4. GIF Viewerアプリを実行して&nbsp;<b><font color="#0e5fe5"> 「+」</font> </b> &nbsp;ボタンをクリックしてください。<br>
-				5. &nbsp;<b><font color="#0e5fe5">「Twitter GIF」 </font></b> &nbsp;を選択すると、GIF動画をダウンロードすることができます。<br>
+		        1. ツイッターでGIF動画が存在するツイートで &nbsp;<b><font color="#0e5fe5">「...」</font></b> &nbsp;をクリックしてください。<br>
+                                2. &nbsp;<b><font color="#0e5fe5">「共有する」</font></b> &nbsp; を選択してください。<br>
+                                3. &nbsp;<b><font color="#0e5fe5">「ツイートへのリンクをコピー」 </font></b> &nbsp;を選択してください。<br>
+                                4. GIF Viewerアプリを実行して&nbsp;<b><font color="#0e5fe5"> 「+」</font> </b> &nbsp;ボタンをクリックしてください。<br>
+                                5. &nbsp;<b><font color="#0e5fe5">「Twitter GIF」 </font></b> &nbsp;を選択すると、GIF動画をダウンロードすることができます。<br>
+
 
 		      </div>
 		    </div>
 		</div>
 
 		<div class="panel panel-default">
-
 		    <div class="panel-heading" role="tab" id="heading6">
-		      	<h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-					6. GIFバックアップ方法
-
-			        </a>
-		      	</h4>
-		    </div>
-
-		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-		      	<div class="panel-body">
-					
-				iTunesファイル共有でGIF Viewerを選択してください。<br>
-				<p><img width="100%" src="https://41.media.tumblr.com/c3bbbd6d7fdf47bc29b6aa2633dd7d01/tumblr_o3uu87gIi31umvt7yo1_540.jpg"></p>
-
-				フォルダをそのままドラッグして、PCに移動してください。<br>
-				<p><img width="100%" src="https://41.media.tumblr.com/2af7d8d91bab6f092cd4e3ab6b12e15f/tumblr_o3uu87gIi31umvt7yo2_540.jpg"></p>
-
-				バックアップが完了すると、PCのフォルダからGIFとPNG画像が一緒に保存されます。 PNGファイルのみ削除してください。 <br><br>
-
-				GIF Viewerアプリはアプリの速度の向上のためにサムネイル（PNG）を生成しています。 ファイル数が2〜3倍に増え、お迷惑かけてしまうことになりますが、ご了承をお願いいたします。 他のバックアップ方法（ドロップボックス、Wi-Fi）が後日、追加でサポートされる予定です。
-		      	</div>
-		    </div>
-
-		</div>
-
-		<div class="panel panel-default">
-
-		    <div class="panel-heading" role="tab" id="heading7">
-		      	<h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
-					7. 購入リストを回復することができません。どうすればいいですか？
-			        </a>
-		      	</h4>
-		    </div>
-		    
-		    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
-		      	<div class="panel-body">
-			        まず、アプリストアからログアウトした後、あなたの機器の電源を入れ直してください。そして再度ログインをして、購入リストの回復を再試行してください。  <br><br>
-			        決済プロセスはAppleによって完全に管理されます。ログイン、ログアウトを何度試してみても回復できない場合は、Appleにお問い合わせ願います。<br> 
-			       
-
-			    </div>
-		    </div>
-
-		</div>
-
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading8">
 		      <h4 class="panel-title">
-		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
-		          8. 言語翻訳が変です。
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+		          6. Sina Weiboで共有する時やダウンロードする時にエラーが発生します。
 		        </a>
 		      </h4>
 		    </div>
+
+		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+		      <div class="panel-body">
+		        iPhoneの設定でSina Weiboのアカウントが追加されていることを確認してください。<br><br>
+
+					1. 設定アプリを起動してください。<br><br>
+                    <img width="100" src="https://36.media.tumblr.com/acecca7d3d3048120cbbd6aa3b5fa5b1/tumblr_inline_no0dynWAJ21r9fs71_540.png">
+                    <br><br>
+
+                    2. Sina Weiboを見つけてクリックして詳細表示に入ってください。<br><br>
+                    <img width="100%" src="https://67.media.tumblr.com/2ca552ecc0a41944d2d7345815de5474/tumblr_o3uu87gIi31umvt7yo3_500.jpg">
+                    <br><br>
+
+                    3. このところSina Weiboのアカウント設定がうまくされていることを確認して、アカウントがない場合は、アカウントを追加してください。<br> 継続的に問題が発生するようであればアカウントにてすべてのアカウントを削除し、再登録をお試しください。<br>
+                      下部にはGIF Viewerアプリのアクセスが承認されていることを確認してください<br><br>
+
+                    <img width="100%" src="https://66.media.tumblr.com/4d5143c6c3e830e430db74f109008eb7/tumblr_o3uu87gIi31umvt7yo4_500.jpg">
+                    <br><br>
+
+		      </div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading7">
+	      		<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+	          			7. GIFバックアップ方法
+	        		</a>
+	      		</h4>
+	    	</div>
+
+		    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+		      	<div class="panel-body">
+					
+				Dropbox、Googleドライブ、iTunesファイル共有を利用してデータをバックアップすることができます。（iTunesファイル共有：FAQ 8）<br><br>
+
+				 Dropbox, GoogleドライブにGIFを転送する方法<br>
+				1. 送りたいGIFを選択します。<br>
+				 2. 共有 > 転送からDropboxまたはGoogleドライブを選択します。<br>
+				3. 転送が完了したらDropbox > アプリフォルダ > GIF Viewerフォルダから転送したファイルを確認できます。（GoogleドライブはGoogleドライブ>GIF Viewerフォルダにて確認可能です）
+
+
+		      	</div>
+		    </div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading8">
+	      		<h4 class="panel-title">
+	        		<a data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+	          			8. PCにGIFを転送する方法（iTunesファイル共有）
+	        		</a>
+	      		</h4>
+	    	</div>
+
 		    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+		      	<div class="panel-body">
+					
+				iTunesファイル共有でGIF Viewerを選択してください。<br>
+                  <p><img width="100%" src="https://41.media.tumblr.com/c3bbbd6d7fdf47bc29b6aa2633dd7d01/tumblr_o3uu87gIi31umvt7yo1_540.jpg"></p>
+
+                フォルダをそのままドラッグして、PCに移動してください。<br>
+                 <p><img width="100%" src="https://41.media.tumblr.com/2af7d8d91bab6f092cd4e3ab6b12e15f/tumblr_o3uu87gIi31umvt7yo2_540.jpg"></p>
+
+                 バックアップが完了すると、PCのフォルダからGIFとPNG画像が一緒に保存されます。 PNGファイルのみ削除してください。 <br><br>
+
+                 GIF Viewerアプリはアプリの速度の向上のためにサムネイル（PNG）を生成しています。 ファイル数が2〜3倍に増え、お迷惑かけてしまうことになりますが、ご了承をお願いいたします。 
+
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading9">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+		          9. 購入リストを回復することができません。どうすればいいですか？
+		        </a>
+		      </h4>
+		    </div>
+
+		    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+		      <div class="panel-body">
+		        1. App Storeからログアウト <br>
+				2. iPhone再起動 <br>
+				3. App Storeで再ログイン<br>
+				4. 購入アイテムの復旧<br><br>
+
+				<img width="100%" src="https://67.media.tumblr.com/e4e406c59af32c0de96ba40ebfc85d9d/tumblr_od2podGbaS1umvt7yo1_540.png">
+
+				<br><br>
+				決済プロセスはAppleによって完全に管理されます。ログイン、ログアウトを何度試してみても回復できない場合は、Appleにお問い合わせ願います。
+
+				<p><a href='https://getsupport.apple.com/GetproductgroupList.action'> Appleにお問い合わせ</a></p>
+			
+		      </div>
+		    </div>
+		</div>
+
+	    <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading10">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse8">
+		          10. 言語翻訳が変です。
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
 		      <div class="panel-body">
 		        良い翻訳を提供しようと努力しています。<br>
 				しかし、もしも翻訳表現に問題がある場合、ご連絡いただければ更新時に修正いたします。<br>
@@ -256,24 +311,25 @@
 
 		        <p><a href='mailto:cs@imgbase.me'> メールを送る</a></p>
 		      </div>
-			</div>
-		</div>
+		    </div>
+	  	</div>
 
 		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading9">
+		    <div class="panel-heading" role="tab" id="heading11">
 		      <h4 class="panel-title">
-		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
-		          9. いくつかの答えを見つけることができません!
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+		          11. いくつかの答えを見つけることができません!
 		        </a>
 		      </h4>
 		    </div>
-		    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+		    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
 		      <div class="panel-body">
 		        <p>お手数ですが, cs@imgbase.me に連絡してください。 </p>
-		        <p><a href='mailto:cs@imgbase.me'> メールを送る</a></p>
+                <p><a href='mailto:cs@imgbase.me'> メールを送る</a></p>
 		      </div>
-			</div>
+		    </div>
 		</div>
+	
 
 	</div>
 
