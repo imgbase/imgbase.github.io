@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ImgPlay</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<style type="text/css">
+
+	    #navbar {
+			padding-left:15px;
+	    }
+
+	    #accordion {
+		    margin-top:20px;
+			border-bottom:1px solid #ddd;
+	    }
+
+	    #accordion .panel {
+		    border-radius: 0px;
+		    border:0px solid transparent;
+		    border-top:1px solid #ddd;
+			-webkit-box-shadow: 0 0 0 rgba(0,0,0,.05);
+			box-shadow: 0 0 0 rgba(0,0,0,.05);
+			margin-top: 0;
+	    }
+
+	    #accordion .panel-heading {
+		    padding: 15px 15px;
+	    }
+
+	    img {
+
+	    }
+	</style>
+  </head>
+  <body>
+	<div id="navbar">
+		<h3>ImgPlay</h2>
+	</div>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+		 	<div class="panel-heading" role="tab" id="headingOne">
+		      	<h4 class="panel-title">
+		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		        	 1. La foto pierde resolución cuando se guarda como GIF.
+		        	</a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+		      	<div class="panel-body">
+			    Los archivos en formato GIF tienen un límite de 256 colores, por lo que no se puede evitar alterar la foto cuando se guarda como GIF. Recomendamos guardar una imagen en formato vídeo si se quiere preservar la calidad alta.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading2">
+		     	<h4 class="panel-title">
+		       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+					2. Se tarda mucho en subir fotos.
+		        	</a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+			        Si las fotos del dispositivo se suben a iCloud, pueden tardar en cargarse. La descarga se hace a través de la red, por lo que el proceso depende de la velocidad de la red.<br><br>
+					Vuelve a intentarlo en una red Wi-Fi.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading3">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+					3. He guardado un GIF, pero no se mueve en la aplicación Fotos.
+			        </a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+		      	<div class="panel-body">
+			        La aplicación de fotos de iPhone no admite GIF, por lo que parece una imagen congelada. Para ver GIF en un iPhone debes instalar una aplicación de álbumes de GIF. Recomendamos nuestra aplicación GIF Viewer. Es gratuita.<br><br>
+					<img width="27" src="https://68.media.tumblr.com/d222e932d94a6caafdd4d429e70226ec/tumblr_o0ekqgjtzE1umvt7yo9_400.png">
+					<a href="https://itunes.apple.com/app/id895830403">Acceso directo al App Store.</a>
+			    </div>
+		    </div>
+
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading4">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+					4. No puedo restablecer los pagos. ¿Qué hago?
+			        </a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+		      	<div class="panel-body">
+			        1. Salir del App Store.<br>2. Reiniciar el iPhone o iPad.<br>3. Volver a acceder al App Store.<br>4. Volver a intentar la restauración de la compra.
+					<br><br>
+			        Apple gestiona toda la tramitación del pago. Si, pese a ello, se produce algún problema, contacta con Apple para recibir ayuda.
+			        <p><a href='https://getsupport.apple.com/GetproductgroupList.action'>Contactar con Apple</a></p>
+			    </div>
+		    </div>
+
+		</div>
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading5">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+		          5. Parece haber algunos errores de traducción.
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+		      <div class="panel-body">
+		        Procuramos ofrecer la mejor traducción posible. Si tienes problemas para entender algo debido a la traducción, dínoslo. Se modificará para la próxima actualización. Agradecemos enormemente tu ayuda.
+				<p><a href='mailto:cs@imgbase.me'>Enviar al correo</a></p>
+		      </div>
+		    </div>
+	  	</div>
+
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading6">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+		          6. ¡No encuentro respuestas!
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+		      <div class="panel-body">
+		        <p>Contacta con cs@imgbase.me</p>
+		        <p><a href='mailto:cs@imgbase.me'>Enviar al correo</a></p>
+		      </div>
+		    </div>
+	  	</div>
+
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

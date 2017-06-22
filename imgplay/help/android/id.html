@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ImgPlay</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<style type="text/css">
+
+	    #navbar {
+			padding-left:15px;
+	    }
+
+	    #accordion {
+		    margin-top:20px;
+			border-bottom:1px solid #ddd;
+	    }
+
+	    #accordion .panel {
+		    border-radius: 0px;
+		    border:0px solid transparent;
+		    border-top:1px solid #ddd;
+			-webkit-box-shadow: 0 0 0 rgba(0,0,0,.05);
+			box-shadow: 0 0 0 rgba(0,0,0,.05);
+			margin-top: 0;
+	    }
+
+	    #accordion .panel-heading {
+		    padding: 15px 15px;
+	    }
+
+	    img {
+
+	    }
+	</style>
+  </head>
+  <body>
+	<div id="navbar">
+		<h3>ImgPlay</h2>
+	</div>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel panel-default">
+		 	<div class="panel-heading" role="tab" id="headingOne">
+		      	<h4 class="panel-title">
+		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		        	 1. Foto memiliki resolusi rendah ketika disimpan sebagai GIF
+		        	</a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+		      	<div class="panel-body">
+			     Format file GIF memiliki batasan 256 warna, sehingga ada kerusakan tak terhindarkan di foto ketika disimpan dalam GIF. Kami sarankan untuk menyimpan gambar dalam format video jika Anda ingin menyimpan kualitas tinggi.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading2">
+		     	<h4 class="panel-title">
+		       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+					2. Pemuatan foto membutuhkan waktu terlalu lama
+		        	</a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+		      	<div class="panel-body">
+			        Jika foto yang disimpan di mesin diunggah di iCloud, pemuatan mungkin membutuhkan waktu lama. Pengunduhan melalui jaringan, sehingga prosesnya dipengaruhi oleh kecepatan jaringan.<br><br>
+					Coba lagi di jaringan Wi-Fi.
+		      	</div>
+		    </div>
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading3">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+					3. Saya menyimpan GIF, tetapi tidak bergerak di app Foto.
+			        </a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+		      	<div class="panel-body">
+			        App foto iPhone tidak mendukung GIF, sehingga sepertinya itu gambar tidak bergerak. Untuk melihat gif di iPhone, Anda perlu menginstal App Album GIF. Kami menyarankan App GIF Viewer. Gratis.<br><br>
+					<img width="27" src="https://68.media.tumblr.com/d222e932d94a6caafdd4d429e70226ec/tumblr_o0ekqgjtzE1umvt7yo9_400.png">
+					<a href="https://itunes.apple.com/app/id895830403">Pintasan ke tautan Appstore.</a>
+			    </div>
+		    </div>
+
+		</div>
+
+		<div class="panel panel-default">
+
+		    <div class="panel-heading" role="tab" id="heading4">
+		      	<h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+					4. Saya tidak dapat memulihkan pembayaran saya. Apa yang dapat saya lakukan?
+			        </a>
+		      	</h4>
+		    </div>
+
+		    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+		      	<div class="panel-body">
+			        1. Keluar dari App Store.<br>2. Mulai ulang iPhone atau iPad.<br>3. Masuk lagi di App Store.<br>4. Coba lagi pengembalian pembelian.
+					<br><br>
+			        Apple mengelola pemrosesan pembayaran secara menyeluruh. Jika masih ada masalah, harap hubungi Apple untuk mendapatkan bantuan
+			        <p><a href='https://getsupport.apple.com/GetproductgroupList.action'>Hubungi Apple</a></p>
+			    </div>
+		    </div>
+
+		</div>
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading5">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+		          5. Terjemahan sepertinya mengandung beberapa kesalahan.
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+		      <div class="panel-body">
+		        Kami berusaha memberikan terjemahan sebaik mungkin. Jika Anda mengalami masalah dalam memahaminya karena terjemahan, harap beri tahu kami. Terjemahan tersebut akan diedit ketika diperbarui. Kami sangat menghargai bantuan Anda.<br>
+				<p><a href='mailto:cs@imgbase.me'> Kirim ke email</a></p>
+		      </div>
+		    </div>
+	  	</div>
+
+
+		<div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="heading6">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+		          6. Tidak dapat menemukan jawaban apa pun!
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+		      <div class="panel-body">
+		        <p>Harap hubungi cs@imgbase.me</p>
+		        <p><a href='mailto:cs@imgbase.me'>Kirim ke email</a></p>
+		      </div>
+		    </div>
+	  	</div>
+
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
