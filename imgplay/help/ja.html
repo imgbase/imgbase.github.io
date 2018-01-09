@@ -51,70 +51,66 @@
 	<div id="navbar">
 		<h3>ImgPlay</h2>
 	</div>
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
 		 	<div class="panel-heading" role="tab" id="headingOne">
 		      	<h4 class="panel-title">
 		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-		        	 1. GIF動画で保存すると、写真ファイルが壊れて見えません。
+		        	 1. GIFの低解像度フォーマット / 高画質ではないのはなぜですか？
 		        	</a>
 		      	</h4>
 		    </div>
 
 		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 		      	<div class="panel-body">
-			        ウェブやモバイルで主に使われる画像フォーマットはJPG、GIF、PNGです。 <br>
 
-			        その中、GIF動画はGIFファイル形式です。 <br><br>
-
-			        GIF動画は一つの画像に保存可能な色が256色に制限されているため、256種類以上の色を持つ画像をGIF形式で保存すると、どうしようもなく色の損失が発生します。 画質の良いアニメーションを保存したい場合は、ビデオとして保存することをお勧めします。 
-		      	</div>
+              GIFファイルのフォーマットはハードコードされている色数の上限が256色であるため、写真をGIFとして保存した場合やGIFに変換した場合には、写真画質の低下が避けられません。
+              <br><br>
+              画像を高画質で保存したい場合は、ビデオフォーマットで保存することを推奨しています。ImgPlayアプリはモバイルデバイスにおける最高品質を確保するためにGIFフォーマットでの保存機能をサポートしています。実際のアウトプット品質は元の画像の画質によって変化しますので、ImgPlayでのアウトプットの品質を高めたい場合は、より高画質のオリジナル画像を使用してください。
+    </div>
 		    </div>
 		</div>
 
 		<div class="panel panel-default">
 
-
 		    <div class="panel-heading" role="tab" id="heading2">
 		     	<h4 class="panel-title">
 		       	 	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-					2. 写真の読み込みに時間がかかりすぎです。
+					2. 写真またはビデオの読み込み時間
 		        	</a>
 		      	</h4>
 		    </div>
 
 		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
 		      	<div class="panel-body">
-			        機器に保存された写真がiCloudにアップロードされている場合、ロード時間が長くなることがあります。 これは、ネットワークを介してダウンロードするため、ネットワークの速度の影響を受けるからです。 <br><br>
-
-			        WiFiネットワークでに再度お試しください。
-
+			        デバイス内で保存された写真がiCloudにアップロードされる場合、読み込みにより長い時間がかかる場合があります。ダウンロードの処理はネットワーク経由で行われるため、ネットワークの速度の影響を受けます。
+                <br><br>
+					         Wi-Fiネットワーク使用中に再度お試しください。
 		      	</div>
 		    </div>
 		</div>
 
 		<div class="panel panel-default">
 
-
 		    <div class="panel-heading" role="tab" id="heading3">
 		      	<h4 class="panel-title">
 			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-					3. GIF動画をフォトギャラリーに保存したけど動きません。
+					3. iOS 11以前のiOSではアニメーションGIFはサポートされていません
 			        </a>
 		      	</h4>
 		    </div>
 
 		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
 		      	<div class="panel-body">
-			        iPhoneの基本フォトギャラリーはGIF形式をサポートしていないため、停止した写真画像として表示されます。iPhoneでGIF動画を表示するためには、GIF動画アルバムアプリを別途インストールする必要があります。<br><br>
-
-
-					私たちが作ったこのアプリ、GIFViewerをお勧めします。無料です。 <br>
-					<img width="27" src="https://68.media.tumblr.com/d222e932d94a6caafdd4d429e70226ec/tumblr_o0ekqgjtzE1umvt7yo9_400.png">
-
-					<a href="https://itunes.apple.com/app/id895830403">アプリストアリンクショートカット</a>
+			       バージョン11以降のiOSを実行しているデバイスのみ写真アプリ内でアニメーションGIFを表示することができます。
+               <br><br>
+            iOS 11を使用していない場合はアップグレードしてください。何らかの理由によりiOS 11にアップグレードできない場合は、「GIF Viewer」アプリをインストールすることを推奨しています。「GIF Viewer」は写真アプリ内に保存されたアニメーションGIFを表示するために当社が開発したもう一つのアプリです。アプリは無料で簡単に使用できます。
+            <br>
+          <img width="27" src="https://68.media.tumblr.com/d222e932d94a6caafdd4d429e70226ec/tumblr_o0ekqgjtzE1umvt7yo9_400.png">
+          <a href="https://itunes.apple.com/app/id895830403">ダウンロードリンクのショートカット</a>
 			    </div>
 		    </div>
+
 		</div>
 
 		<div class="panel panel-default">
@@ -122,18 +118,18 @@
 		    <div class="panel-heading" role="tab" id="heading4">
 		      	<h4 class="panel-title">
 			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-					4. 購入リストを回復することができません。どうすればいいですか？
+					4. 音が出ないのはなぜですか？
 			        </a>
 		      	</h4>
 		    </div>
 
 		    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
 		      	<div class="panel-body">
-			        まず、アプリストアからログアウトした後、あなたの機器の電源を入れ直してください。そして再度ログインをして、購入リストの回復を再試行してください。  <br><br>
-			        決済プロセスはAppleによって完全に管理されます。ログイン、ログアウトを何度試してみても回復できない場合は、Appleにお問い合わせ願います。<br>
 
+              ImgPlayアプリはオーディオをサポートしていないGIFファイルの作成に特化しています。 <br><br>
+              元の音声を維持するためには、編集ビューで速度や方向を編集せずにビデオフォーマットで保存してください。
 
-			    </div>
+        </div>
 		    </div>
 
 		</div>
@@ -142,38 +138,176 @@
 		    <div class="panel-heading" role="tab" id="heading5">
 		      <h4 class="panel-title">
 		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-		          5. 言語翻訳が変です。
+		          5. フレーム制限 / GIFをもっと長くできないのはなぜですか？
 		        </a>
 		      </h4>
 		    </div>
 		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
 		      <div class="panel-body">
-		        良い翻訳を提供しようと努力しています。<br>
-				しかし、もしも翻訳表現に問題がある場合、ご連絡いただければ更新時に修正いたします。<br>
-				お手数ですが、cs@imgbase.meに誤った翻訳のメールを送ってくだされば幸いです。<br><br>
+            フレームの上限数はご利用中のデバイスによって異なります。 <br><br>
 
-				<p><a href='mailto:cs@imgbase.me'> メールを送る</a></p>
-		      </div>
-			</div>
-		</div>
+            最大150フレーム: 5s、6、6 Plus、SE、7、8、iPad<br>
+            最大200フレーム: 7 Plus、8 Plus、X、iPad Pro
+            <br><br>
+            通常、モバイルデバイスのシステムメモリはパソコンよりも小さいため、フレーム数が150を超えるとほぼすべてのデバイスでクラッシュのリスクが高まります。そのようなリスクを回避するために上限が設けられています。
+
+           </div>
+		    </div>
+	  	</div>
+
 
 		<div class="panel panel-default">
 		    <div class="panel-heading" role="tab" id="heading6">
 		      <h4 class="panel-title">
 		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-		          6. いくつかの答えを見つけることができません!
+		          6. GIFをFacebookで共有する方法
 		        </a>
 		      </h4>
 		    </div>
 		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
 		      <div class="panel-body">
-		        <p>お手数ですが, cs@imgbase.me に連絡してください。 </p>
-		        <p><a href='mailto:cs@imgbase.me'> メールを送る</a></p>
+		        FacebookではGIFのURLの共有のみ許可されています。GIFをFacebookにアップロードしたい場合は、Tumblr、GIPHY、Google Drive、パーソナル・サーバなど他のサービスを利用してGIFのウェブリンクを作成してください。
+
+              <br><br>
+            ImgPlayアプリはユーザーのGIFをいかなるサーバにもアップロードしないため、GIFをリンク付けすることができません。ImgPlayで作成したコンテンツを直接アップロードしたい場合は、ビデオフォーマットで保存してからFacebookにアップロードしてください。
 		      </div>
-			</div>
-		</div>
+		    </div>
+	  	</div>
+
+      <div class="panel panel-default">
+  		    <div class="panel-heading" role="tab" id="heading7">
+  		      <h4 class="panel-title">
+  		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+  		          7. GIFの編集中に1フレームしか表示されません
+  		        </a>
+  		      </h4>
+  		    </div>
+  		    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+  		      <div class="panel-body">
+              GIFをどこから取得しましたか？<br>
+              ウェブページからGIFファイルをダウンロードした場合、アニメーションGIFではなくなる場合があります。一部のアプリではiOS上へのアニメーションGIFのダウンロードがサポートされていません。ユーザーがそのようなアプリ経由でダウンロードした場合、GIFは自動的に静止画像に変換される場合があり、アニメーションGIFだったはずの画像がアニメ―ションGIFではなくなっている場合があります。このような理由から、ImgPlayアプリでは単一フレームGIFのみが表示されます。
+
+              <br><br>
+              ウェブからGIFをダウンロードするときはSafariアプリの使用を推奨しています。SafariはiOSのデフォルトウェブブラウザアプリで、アニメーションGIFをダウンロードすることができます。
+              <br>
+              アニメーションGIFのダウンロードにはぜひSafariをお試しください。
 
 
+  		      </div>
+  		    </div>
+  	  	</div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading8">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  8. アプリから保存済みのGIFを削除したい。
+                </a>
+              </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+              <div class="panel-body">
+                ImgPlayアプリを使用して作成したGIFを削除したい場合は、デフォルトの写真アプリから削除することができます。 <br><br>
+                ImgPlayアプリはユーザーのGIFファイルをデフォルトの写真アプリにのみ保存することができます。それ以外のいかなる場所やImgPlayアプリ内にも保存されることはありません。
+写真アプリ内でGIFを見つけてから削除してください。
+
+              </div>
+            </div>
+          </div>
+
+      <div class="panel panel-default">
+  		    <div class="panel-heading" role="tab" id="heading9">
+  		      <h4 class="panel-title">
+  		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+  		          9. Proの代金を支払いましたが、使用できないのははぜですか？
+  		        </a>
+  		      </h4>
+  		    </div>
+  		    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+  		      <div class="panel-body">
+              アプリ内の「購入リスト復旧」ボタンはもうクリックしてみましたか？<br><br>
+
+              お使いのデバイスとApp Storeの間で接続エラーが発生しているだけかもしれません。 <br><br>
+
+              1. App Storeからログアウトします。 <br>
+              2. iPhoneまたはiPadを再起動します。 <br>
+              3. App Storeに再度ログインします。 <br>
+              4. 『購入リスト復旧』ボタンをクリックしてください。<br><br>
+
+              <img width="250" src="https://78.media.tumblr.com/7b9d6309d849eebf9fcdfd263b088322/tumblr_p0u4o19cUH1umvt7yo1_1280.jpg">
+ <br><br>
+              復元できない場合は、App Storeで受領書をもう一度確認してください。　
+              </div>
+  		    </div>
+  	  	</div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading10">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                  10. 二重支払いまたは支払いエラー　
+                </a>
+              </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+              <div class="panel-body">
+                支払い処理はApple社が一切の管理を行っています。 <br>
+                お支払いで問題が発生した場合は、こちらのURLからApple社にお問合せください。
+
+<br><br>
+<p><a href='https://support.apple.com/HT204084'>アプリストアリンクショートカット</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading11">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                    11. サブスクリプションのキャンセル
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                <div class="panel-body">
+                  ImgPlayアプリはサブスクリプション形式を採用していません。<br>
+                  当アプリは1回限りの購入で永久的にご利用いただけます。サブスクリプションの心配はご無用です。<br><br>
+                  ImgPlayアプリをいつまでもお楽しみください！ 😃
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading12">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                      12. 翻訳の間違い
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                  <div class="panel-body">
+                    当社はできる限り最高の日本語訳を提供できるよう努力しています。理解不能な日本語訳がございましたら、ぜひお知らせください。ご指摘いただいた翻訳はアップデート時に編集いたします。よろしければ、翻訳の問題についてはcs@imgbase.me にメールでご連絡ください。ご協力に感謝いたします。
+              <p><a href='mailto:imgplay.ios@imgbase.me'>メールを送る</p>
+              </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading13">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                        13. 私の質問に対する回答が見つかりません！
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div class="panel-body">
+                    こちらで質問に対する回答が見つからない場合は、cs@imgbase.meにお問合せください。
+                    <p><a href='mailto:imgplay.ios@imgbase.me'>メールを送る</p>
+                    </div>
+                  </div>
+                </div>
 
 	</div>
 
