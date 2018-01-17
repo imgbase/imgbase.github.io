@@ -40,66 +40,114 @@
 	<div id="navbar">
 		<h3>ImgPlay</h2>
 	</div>
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
-		 	<div class="panel-heading" role="tab" id="headingOne">
-		      	<h4 class="panel-title">
-		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-		        	 1. 閃圖保存的圖片出現失真現象
-		        	</a>
-		      	</h4>
-		    </div>
+      <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+               1. GIF 低解析度格式／為什麼無法提供高畫質？
+              </a>
+            </h4>
+        </div>
 
-		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-		      	<div class="panel-body">
-			        因特網和手機網絡支持的圖片格式主要有JPG, GIF, PNG。<br>
-					其中閃圖為GIF文件格式。<br><br>
-					GIF圖像只能顯示256色，當大於256色的圖像保存為GIF格式時，無可避免的發生圖像失真現象。如果要保存高畫質動態圖，建議利用視頻格式保存。
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
 
-		      	</div>
-		    </div>
+              GIF 檔案本身即有 256 色的限制，所以若要將圖片儲存為 GIF 格式或轉換為 GIF，難免就會有解析度較低的問題。
 
-		</div>
+若您想將圖片以高畫質儲存，我們建議您可將檔案存為影片格式。ImgPlay 應用程式支援 GIF 格式儲存功能，確保您可在行動裝置上以最高畫質存取檔案。最終輸出的檔案畫質也會受原始檔案的畫質影響，因此若您希望 ImgPlay 輸出的檔案畫質夠高，請盡量使用高畫質的原始檔。
+    </div>
+        </div>
+    </div>
 
-		<div class="panel panel-default">
+    <div class="panel panel-default">
 
-		    <div class="panel-heading" role="tab" id="heading5">
-		      	<h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-					2. 翻譯的內容可能出錯。
-			        </a>
-		      	</h4>
-		    </div>
+        <div class="panel-heading" role="tab" id="heading2">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          2. The saved GIFs are not animated.
+              </a>
+            </h4>
+        </div>
 
-		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-		      	<div class="panel-body">
-			       	我們盡力提供正確的翻譯。<br>
-					如果翻譯表達有問題，請告訴我們，會及時進行更新修改。<br>
-					麻煩您，請使用電子郵件，將出錯的翻譯內容發送至imgplay.and@imgbase.me。<br><br>
+        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+            <div class="panel-body">
+          Android 系統第 4.4 版（或更舊）可能無法使用預設的｢相簿」應用程式來顯示 GIF 動畫。如果您發現您的系統無法播放 GIF 動畫，可使用「QuickPic」應用程式。您可以在 Google Play 商店下載此應用程式。
+          </div>
+        </div>
 
-          <p><a href='mailto:imgplay.and@imgbase.me'> 發電子郵件</a></p>
-			    </div>
-		    </div>
+    </div>
 
-		</div>
+    <div class="panel panel-default">
 
-	   	<div class="panel panel-default">
-	   		<div class="panel-heading" role="tab" id="heading6">
-	      		<h4 class="panel-title">
-	        	<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-				3. 還沒解決呢!</a>
-	      	</h4>
-	    	</div>
-	    	<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-	      		<div class="panel-body">
-	        		<p>請將電子郵件發送至imgplay.and@imgbase.me。</p>
-	        		<p><a href='mailto:imgplay.and@imgbase.me'> 發電子郵件</a></p>
-	      		</div>
-	    	</div>
-	  	</div>
+        <div class="panel-heading" role="tab" id="heading3">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          3. 為什麼沒有聲音？
+              </a>
+            </h4>
+        </div>
+
+        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+            <div class="panel-body">
+
+            ImgPlay 應用程式主要用於建立 GIF 檔案，而這個檔案格式並不支援音訊播放。若想保留原始音訊，您就必須把檔案儲存為影片格式，且請勿在｢編輯」檢視中編輯速度與方向。
+        </div>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading4">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              4. 幀數限制/為什麼不能製作時間更長的 GIF 檔？
+            </a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+          <div class="panel-body">
+            ImgPlay allows you to create a GIF max 100 ~ 150 frames.<br>
+            Photos to GIF : 100 frames <br>
+            Video to GIF : 100 ~ 150 frames <br><br>
+            行動裝置的系統記憶體一般會比個人電腦小，所以若幀數超過 150，則在大部分的行動裝置上均可能造成閃退，因此才會有最大幀數限制。
+          </div>
+        </div>
+      </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      5. 翻譯錯誤
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                  <div class="panel-body">
+                    我們盡力為您提供最佳的翻譯。如果您由於翻譯品質不佳，碰到無法理解的內容，請告訴我們，我們在更新時會改善您所遇到的問題。您可將任何錯譯寄到我們的電子信箱：imgplay.and@imgbase.me。我們非常感謝您的協助
+              <p><a href='mailto:imgplay.and@imgbase.me'>發電子郵件</p>
+              </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading6">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        6. 這裡沒有列出我遇到的問題！
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div class="panel-body">
+                    如果您遇到的問題並沒有在這裡列出，請寫電子郵件至 imgplay.and@imgbase.me 與我們聯絡。
+                    <p><a href='mailto:imgplay.and@imgbase.me'>發電子郵件</p>
+                    </div>
+                  </div>
+                </div>
 
 	</div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
