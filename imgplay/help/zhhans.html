@@ -43,7 +43,7 @@
 	<div id="navbar">
 		<h3>ImgPlay</h2>
 	</div>
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
 		 	<div class="panel-heading" role="tab" id="headingOne">
 		      	<h4 class="panel-title">
@@ -55,10 +55,11 @@
 
 		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 		      	<div class="panel-body">
-			        因特网和手机网络支持的图片格式主要有JPG, GIF, PNG。<br>
-					其中闪图为GIF文件格式。<br><br>
-					GIF图像只能显示256色，当大于256色的图像保存为GIF格式时，无可避免的发生图像失真现象。如果要保存高画质动态图，建议利用视频格式保存。
-		      	</div>
+
+              因特网和手机网络支持的图片格式主要有JPG, GIF, PNG。其中闪图为GIF文件格式。
+  <br><br>
+              GIF图像只能显示256色，当大于256色的图像保存为GIF格式时，无可避免的发生图像失真现象。如果要保存高画质动态图，建议利用视频格式保存。
+    </div>
 		    </div>
 		</div>
 
@@ -74,8 +75,9 @@
 
 		    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
 		      	<div class="panel-body">
-			        如果存在设备上的图像被上传到iCloud时，图片加载时间可能会长一些。这是因为下载速度受到网速限制。<br><br>
-					请连接到Wi Fi网络后重新尝试。
+			        如果存在设备上的图像被上传到iCloud时，图片加载时间可能会长一些。这是因为下载速度受到网速限制。
+              <br><br>
+					        请连接到Wi Fi网络后重新尝试。
 		      	</div>
 		    </div>
 		</div>
@@ -85,21 +87,22 @@
 		    <div class="panel-heading" role="tab" id="heading3">
 		      	<h4 class="panel-title">
 			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-					3. 闪图保存到相册之后变成静态图.
+					3. iOS 11之前的版本不支持GIF动画
 			        </a>
 		      	</h4>
 		    </div>
 
 		    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
 		      	<div class="panel-body">
-			        这是由于iphone系统是没有保存GIF图片功能，所以看起来像静态图。想要在iphone浏览闪图，需要下载安装闪图浏览器。.<br><br>
-
-
-					推荐由我们制作的免费GIF动态图片浏览器（GIFViewer） 。这样进相册就可以看闪图了。<br>
-					<img width="27" src="https://68.media.tumblr.com/d222e932d94a6caafdd4d429e70226ec/tumblr_o0ekqgjtzE1umvt7yo9_400.png">
-					<a href="https://itunes.apple.com/app/id895830403">直接跳转到应用商店链接</a>
+			       仅运行iOS 11或更高版本操作系统的设备能在照片应用中显示GIF动画。
+               <br><br>
+              如果您不在使用iOS 11，请先升级。如果您因为某些原因无法升级到iOS 11，建议您安装“GIF Viewer”应用。“GIF Viewer”是我们开发的另一款应用，也可以查看保存在照片应用中的GIF动画；这款应用是免费的，而且易于使用。
+              <br>
+          <img width="27" src="https://68.media.tumblr.com/d222e932d94a6caafdd4d429e70226ec/tumblr_o0ekqgjtzE1umvt7yo9_400.png">
+          <a href="https://itunes.apple.com/app/id895830403">下载链接快捷方式</a>
 			    </div>
 		    </div>
+
 		</div>
 
 		<div class="panel panel-default">
@@ -107,63 +110,174 @@
 		    <div class="panel-heading" role="tab" id="heading4">
 		      	<h4 class="panel-title">
 			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-					4. 无法修复购买记录。该怎么办呢？
+					4. 为什么没用声音？
 			        </a>
 		      	</h4>
 		    </div>
 
 		    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
 		      	<div class="panel-body">
-			        首先，退出苹果市场之后，重新开启您的设备。然后再次登录后重试修复购买记录。<br><br>
 
-			        所有的结算进程被Apple直接管理。因此，反复尝试登录和退出都无法修复时，请咨询Apple。<br><br>
-
-
-
-			    </div>
+            ImgPlay应用专用于制作GIF文件，这种格式不支持音频。要保持原声，您必须将其保存为一种视频格式，且不能在“编辑”视图中编辑速度或方向。
+        </div>
 		    </div>
 
 		</div>
-
 
 		<div class="panel panel-default">
-
 		    <div class="panel-heading" role="tab" id="heading5">
-		      	<h4 class="panel-title">
-			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-					5. 翻译的内容可能出错。
-			        </a>
-		      	</h4>
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+		          5. 帧数限制/为什么不能制作更长的GIF？
+		        </a>
+		      </h4>
 		    </div>
-
 		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-		      	<div class="panel-body">
-			        我们尽力提供正确的翻译。<br>
-					如果翻译表达有问题，请告诉我们，会及时进行更新修改。<br>
-					麻烦您，请使用电子邮件，将出错的翻译内容发送至cs@imgbase.me。
+		      <div class="panel-body">
+            最大帧数取决于使用的设备。 <br><br>
 
-			    </div>
+            最高100帧：4、4S、5、5S、6、6 Plus<br>
+            最高150帧：SE、6S、6S Plus、7、8、iPad<br>
+            最高200帧：7 Plus、8 Plus、iPad Pro
+            <br><br>
+            移动设备的系统总内存通常小于电脑，因此大于150帧会带来让移动设备崩溃的风险。因此会有限制。
+          </div>
 		    </div>
+	  	</div>
 
-		</div>
+      <div class="panel panel-default">
+  		    <div class="panel-heading" role="tab" id="heading7">
+  		      <h4 class="panel-title">
+  		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+  		          6. 编辑GIF时只显示一帧
+  		        </a>
+  		      </h4>
+  		    </div>
+  		    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+  		      <div class="panel-body">
+              GIF是从哪里获得的？<br>
+              如果是从网页下载的GIF文件，则可能不是GIF动画。部分应用不支持在iOS设备上下载GIF动画。当用户通过这类设备下载时，GIF动画可能会自动变为静态图片，因此看起来像是GIF动画未必真的是。出于这个原因，ImgPlay应用只能显示单帧GIF。
 
+              <br><br>
+              我们建议使用Safari从网上下载GIF。Safari是iOS设备的默认浏览器，可以下载GIF动画。
+              <br>
+              请试用Safari下载GIF动画。
 
-	   <div class="panel panel-default">
-	   		 <div class="panel-heading" role="tab" id="heading6">
-	     		 <h4 class="panel-title">
-	       		 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-	       		   6. 还没解决呢！
-	       		 </a>
-				</h4>
-	   		</div>
-	   		<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-	     	 	<div class="panel-body">
-	       			 <p>请将电子邮件发送至cs@imgbase.me。</p>
-	       			 <p><a href='mailto:cs@imgbase.me'> 发电子邮件</a></p>
-	      		</div>
-	    	</div>
+  		      </div>
+  		    </div>
+  	  	</div>
 
-	  </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading8">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  7. 我想删除应用中保存的GIF。
+                </a>
+              </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+              <div class="panel-body">
+                如果想删除用ImgPlay应用制作的GIF，可以通过默认的照片应用删除。<br><br>
+                ImgPlay应用仅能将用户的GIF文件保存至默认照片应用。它不会将其保存在别处或ImgPlay应用当中。
+在照片应用中查找并删除GIF。
+
+              </div>
+            </div>
+          </div>
+
+      <div class="panel panel-default">
+  		    <div class="panel-heading" role="tab" id="heading9">
+  		      <h4 class="panel-title">
+  		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+  		          8. 我支付了专业版的费用，为什么不能使用？
+  		        </a>
+  		      </h4>
+  		    </div>
+  		    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+  		      <div class="panel-body">
+              您试过点击应用中的“恢复购买”按钮吗？ <br><br>
+
+              有可能只是设备和App Store的连接有问题。 <br><br>
+
+              1. 从App Store注销。 <br>
+              2. 重启iPhone或iPad。 <br>
+              3. 重新登录到App Store。 <br>
+              4. 点击带有“恢复购买”的按钮。 <br><br>
+
+              <img width="250" src="https://78.media.tumblr.com/7b9d6309d849eebf9fcdfd263b088322/tumblr_p0u4o19cUH1umvt7yo1_1280.jpg">
+ <br><br>
+              如果您无法恢复，请再次检查App Store的收据。
+              </div>
+  		    </div>
+  	  	</div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading10">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                  9. 重复支付或支付错误
+                </a>
+              </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+              <div class="panel-body">
+                支付处理完全是由Apple管理的。如果您遇到了支付方面的问题，请通过此URL联系Apple获取帮助。
+
+<br><br>
+<p><a href='https://support.apple.com/HT204084'>联系Apple</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading11">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                    10. 正在取消您的订阅
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                <div class="panel-body">
+                  ImgPlay应用不采用订阅模式。一次购买，终身使用。不用担心订阅的问题。永久享用ImgPlay应用！ 😃
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading12">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                      11. 翻译的内容可能出错
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                  <div class="panel-body">
+                    我们尽力提供正确的翻译。
+如果翻译表达有问题，请告诉我们，会及时进行更新修改。
+麻烦您，请使用电子邮件，将出错的翻译内容发送至imgplay.ios@imgbase.me。
+              <p><a href='mailto:imgplay.ios@imgbase.me'>发电子邮件</p>
+              </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading13">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                        12. 还没解决呢！
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div class="panel-body">
+                    请将电子邮件发送至imgplay.ios@imgbase.me。
+                    <p><a href='mailto:imgplay.ios@imgbase.me'>发电子邮件</p>
+                    </div>
+                  </div>
+                </div>
+
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

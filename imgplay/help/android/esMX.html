@@ -40,60 +40,111 @@
 	<div id="navbar">
 		<h3>ImgPlay</h2>
 	</div>
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
-		 	<div class="panel-heading" role="tab" id="headingOne">
-		      	<h4 class="panel-title">
-		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-		        	 1. La foto tiene poca resolución cuando se guarda como GIF.
-		        	</a>
-		      	</h4>
-		    </div>
+      <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+               1. La foto tiene poca resolución cuando se guarda como GIF.
+              </a>
+            </h4>
+        </div>
 
-		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-		      	<div class="panel-body">
-			    El formato de archivo GIF tiene un límite de 256 colores, así que hay un daño inevitable a la foto cuando se guarda en GIF.
-          <br><br>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              El formato de archivo GIF tiene un límite de 256 colores, así que hay un daño inevitable a la foto cuando se guarda en GIF. Recomendamos guardar una imagen en formato de video si quieres conservar una alta calidad.
+    </div>
+        </div>
+    </div>
 
-          Recomendamos guardar una imagen en formato de video si quieres conservar una alta calidad.
-		      	</div>
-		    </div>
-		</div>
+    <div class="panel panel-default">
 
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading5">
-		      <h4 class="panel-title">
-		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-		          2. Parece que la traducción tiene algunos errores
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-		      <div class="panel-body">
-		        Estamos tratando de proporcionar la mejor traducción posible. Si encuentras algún problema para entender debido a la traducción, por favor cuéntanos sobre ello y se editará en la siguiente actualización. Agradecemos mucho tu ayuda y apoyo.
+        <div class="panel-heading" role="tab" id="heading2">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          2. Los GIF guardados no son animados.
+              </a>
+            </h4>
+        </div>
 
-            <br><br>
-				<p><a href='mailto:imgplay.and@imgbase.me'>Enviar a correo</a></p>
-		      </div>
-		    </div>
-	  	</div>
+        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+            <div class="panel-body">
+              La versión 4.4 de Android o menor no puede mostrar GIF animados en la aplicación predefinida de Galería. Si no se puede animar un GIF, usa la aplicación "QuickPic". Se puede descargar en Google Play.
+          </div>
+        </div>
 
+    </div>
 
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading6">
-		      <h4 class="panel-title">
-		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-		          3. ¡No encuentro una respuesta!
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-		      <div class="panel-body">
-		        <p>Por favor, ponte en contacto con imgplay.and@imgbase.me</p>
-		        <p><a href='mailto:imgplay.and@imgbase.me'>Enviar a correo</a></p>
-		      </div>
-		    </div>
-	  	</div>
+    <div class="panel panel-default">
+
+        <div class="panel-heading" role="tab" id="heading3">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          3. ¿Por qué no hay sonido?
+              </a>
+            </h4>
+        </div>
+
+        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+            <div class="panel-body">
+
+              La aplicación ImgPlay se centra en la creación de archivos GIF, un formato que no es compatible con el audio.<br><br>
+
+Para mantener el sonido original debes guardar en un formato de video sin editar la velocidad o dirección en la vista de Editar.
+        </div>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading4">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              4. Límite de cuadros / ¿Por qué no puedo hacer un GIF más largo?
+            </a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+          <div class="panel-body">
+            ImgPlay allows you to create a GIF max 100 ~ 150 frames.<br>
+            Photos to GIF : 100 frames <br>
+            Video to GIF : 100 ~ 150 frames <br><br>
+            Mobile devices typically have smaller system memory totals than PCs, so a frame amount greater than 100 would risk crashing most mobile devices. Therefore there is a limit.
+          </div>
+        </div>
+      </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      5. Parece que la traducción tiene algunos errores.
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                  <div class="panel-body">
+                    Estamos tratando de proporcionar la mejor traducción posible. Si encuentras algún problema para entender debido a la traducción, por favor cuéntanos sobre ello y se editará en la siguiente actualización. Agradecemos mucho tu ayuda y apoyo.
+              <p><a href='mailto:imgplay.and@imgbase.me'>Enviar a correo</p>
+              </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading6">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        6. ¡No encuentro una respuesta!
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div class="panel-body">
+                    Por favor, ponte en contacto con imgplay.and@imgbase.me
+                    <p><a href='mailto:imgplay.and@imgbase.me'>Enviar a correo</p>
+                    </div>
+                  </div>
+                </div>
 
 	</div>
 

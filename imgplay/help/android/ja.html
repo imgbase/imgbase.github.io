@@ -51,67 +51,115 @@
 	<div id="navbar">
 		<h3>ImgPlay</h2>
 	</div>
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 		<div class="panel panel-default">
-		 	<div class="panel-heading" role="tab" id="headingOne">
-		      	<h4 class="panel-title">
-		       		 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-		        	 1. GIF動画で保存すると、写真ファイルが壊れて見えません。
-		        	</a>
-		      	</h4>
-		    </div>
+      <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+               1. GIFの低解像度フォーマット / 高画質ではないのはなぜですか？
+              </a>
+            </h4>
+        </div>
 
-		    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-		      	<div class="panel-body">
-			        ウェブやモバイルで主に使われる画像フォーマットはJPG、GIF、PNGです。 <br>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              GIFファイルのフォーマットはハードコードされている色数の上限が256色であるため、写真をGIFとして保存した場合やGIFに変換した場合には、写真画質の低下が避けられません。
+              <br><br>
+              画像を高画質で保存したい場合は、ビデオフォーマットで保存することを推奨しています。ImgPlayアプリはモバイルデバイスにおける最高品質を確保するためにGIFフォーマットでの保存機能をサポートしています。実際のアウトプット品質は元の画像の画質によって変化しますので、ImgPlayでのアウトプットの品質を高めたい場合は、より高画質のオリジナル画像を使用してください。
+    </div>
+        </div>
+    </div>
 
-			        その中、GIF動画はGIFファイル形式です。 <br><br>
+    <div class="panel panel-default">
 
-			        GIF動画は一つの画像に保存可能な色が256色に制限されているため、256種類以上の色を持つ画像をGIF形式で保存すると、どうしようもなく色の損失が発生します。 画質の良いアニメーションを保存したい場合は、ビデオとして保存することをお勧めします。 
-		      	</div>
-		    </div>
-		</div>
+        <div class="panel-heading" role="tab" id="heading2">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          2. 保存されたGIFはアニメーション化されていません。
+              </a>
+            </h4>
+        </div>
 
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading5">
-		      <h4 class="panel-title">
-		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-		          2. 言語翻訳が変です。
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-		      <div class="panel-body">
-		        良い翻訳を提供しようと努力しています。<br>
-				しかし、もしも翻訳表現に問題がある場合、ご連絡いただければ更新時に修正いたします。<br>
-				お手数ですが、imgplay.and@imgbase.meに誤った翻訳のメールを送ってくだされば幸いです。<br>
-        どうぞよろしくお願いいたします。<br><br>
+        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+            <div class="panel-body">
+              Androidバージョン4.4またはそれ以前のバージョンでは、デフォルトのギャラリーアプリでアニメーションGIFが表示されない場合があります。GIFをアニメーション化できない場合は、「QuickPic」アプリを使用してください。アプリはGoogle Playからダウンロードできます。
+          </div>
+        </div>
 
-				<p><a href='mailto:imgplay.and@imgbase.me'> メールを送る</a></p>
-		      </div>
-			</div>
-		</div>
+    </div>
 
-		<div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="heading6">
-		      <h4 class="panel-title">
-		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-		          3. いくつかの答えを見つけることができません!
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-		      <div class="panel-body">
-		        <p>お手数ですが, imgplay.and@imgbase.me に連絡してください。 </p>
-		        <p><a href='mailto:imgplay.and@imgbase.me'> メールを送る</a></p>
-		      </div>
-			</div>
-		</div>
+    <div class="panel panel-default">
 
+        <div class="panel-heading" role="tab" id="heading3">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          3. 音が出ないのはなぜですか？
+              </a>
+            </h4>
+        </div>
 
+        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+            <div class="panel-body">
+
+              ImgPlayアプリはオーディオをサポートしていないGIFファイルの作成に特化しています。<br>
+
+元の音声を維持するためには、編集ビューで速度や方向を編集せずにビデオフォーマットで保存してください。　
+        </div>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading4">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              4. フレーム制限 / GIFをもっと長くできないのはなぜですか？
+            </a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+          <div class="panel-body">
+            ImgPlayで最大で作成することできるGIFのフレーム数は、100〜150です。<br>
+            写真でGIFを作成 : 100 frames <br>
+            ビデオでGIFを作成 : 100 ~ 150 frames <br><br>
+通常、モバイルデバイスのシステムメモリはパソコンよりも小さいため、フレーム数が150を超えるとほぼすべてのデバイスでクラッシュのリスクが高まります。そのようなリスクを回避するために上限が設けられています。
+          </div>
+        </div>
+      </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading5">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      5. 翻訳の間違い
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                  <div class="panel-body">
+                    当社はできる限り最高の日本語訳を提供できるよう努力しています。理解不能な日本語訳がございましたら、ぜひお知らせください。ご指摘いただいた翻訳はアップデート時に編集いたします。よろしければ、翻訳の問題についてはimgplay.and@imgbase.me にメールでご連絡ください。ご協力に感謝いたします。　
+              <p><a href='mailto:imgplay.and@imgbase.me'>メールを送る</p>
+              </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading6">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        6. 私の質問に対する回答が見つかりません！
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div class="panel-body">
+                    こちらで質問に対する回答が見つからない場合は、imgplay.and@imgbase.meにお問合せください。
+                    <p><a href='mailto:imgplay.and@imgbase.me'>メールを送る</p>
+                    </div>
+                  </div>
+                </div>
 
 	</div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
